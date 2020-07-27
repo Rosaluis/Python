@@ -7,4 +7,4 @@ Created on 27. 7. 2020
 
 
 for x in range(10):
-    print(str(x) + "x Hello.")
+    print(str(x) + "x Hello Junge.")
