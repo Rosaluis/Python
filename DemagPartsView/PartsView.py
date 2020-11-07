@@ -33,7 +33,7 @@ Created on 17. 10. 2020
 
 import sys
 
-from PyQt5.QtWidgets import (QWidget, QGridLayout, QLabel, QLineEdit, QPushButton, QCheckBox, QApplication)
+from PyQt5.QtWidgets import (QWidget, QGridLayout, QLabel, QLineEdit, QPushButton, QCheckBox, QApplication, QToolBar)
 from PyQt5 import QtGui
 from PyQt5 import QtCore
 from PyQt5.QtCore import Qt
@@ -53,6 +53,8 @@ class Example(QWidget):
 
         grid = QGridLayout()
         self.setLayout(grid)
+        
+        self.bookmark_bar = QToolBar('Bookmark')
 #         self.lbCountDown.setFont(QtGui.QFont('Verdana bold', 50))
         # QtGui.QWidget.__init__(self, parent, QtCore.Qt.WindowStaysOnTopHint | QtCore.Qt.WindowMinimizeButtonHint)
         # self.btGogogo.setStyleSheet(".QPushButton {background-color: yellow; padding: 2px}")
@@ -62,17 +64,23 @@ class Example(QWidget):
 
 #         grid.addWidget(self.lbMaxInSpd,     0, 0, 1, 2)
 #         grid.addWidget(self.leMaxInSpd,     0, 2, 1, 1)
-
+        
+        grid.addWidget(self.bookmark_bar,            0,0,10,10)
+        
+        
         self.move(300, 150)
         self.setWindowTitle('PartView')
         self.show()
         self.setPalette(QtGui.QPalette(QtGui.QColor(80, 120, 240)))
         
+        
+        
+        
 #         self.connect(self.btCalk, QtCore.SIGNAL('clicked()'), QtGui.qApp, QtCore.SLOT('quit()'))
 #         self.btPreCalk.clicked[bool].connect(self.calcTeorInjectSpeed)
 #         self.btCalk.clicked[bool].connect(self.calcInjectSpeed)
         
-        
+#         jak se sakra dela s tabulatorama
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
