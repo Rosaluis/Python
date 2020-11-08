@@ -1,0 +1,519 @@
+-K1 Relé volné prog. vstup / výstup (OP0450)
+-K2 Relé volné prog. vstup / výstup (OP0450)
+-K3 Relé volné prog. vstup / výstup (OP0450)
+-K4 Relé volné prog. vstup / výstup (OP0454)
+-K5 Relé volné prog. vstup / výstup (OP0454)
+-K6 Relé volné prog. vstup / výstup (OP0454)
+-1A13 Úprava úrovnì CAN-BUS (OP0552)
+-1A14.0 PLC øízení (základní zaøízení) CPU safety
+-1A14.0.1 PLC øízení (základní zaøízení) DI safety
+-1A14.0.2 PLC øízení (základní zaøízení) DI safety
+-1A14.0.3 PLC øízení (základní zaøízení) DO safety
+-1A14.0.4 PLC øízení (základní zaøízení) DO safety
+-1A14.0.5 PLC øízení (základní zaøízení) RO safety
+-1A14.0.6 PLC øízení (základní zaøízení) DI safety - volitelné
+-1A14.0.7 PLC øízení (základní zaøízení) DO safety - volitelné
+-1A14.0.8 PLC øízení (základní zaøízení) DO safety - volitelné
+-1A14.01 PLC øízení (základní zaøízení) CPU CPU
+-1A14.02 PLC øízení (základní zaøízení) DO - volitelné
+-1A14.03 PLC øízení (základní zaøízení) DO - volitelné
+-1A14.04 PLC øízení (základní zaøízení) AI - volitelné
+-1A15 Rozdìlovaè CAN (OP0552)
+-1A14.05 PLC øízení (základní zaøízení) CPU AI
+-1A14.06 PLC øízení (základní zaøízení) TTY - volitelné
+-1A14.07 PLC øízení (základní zaøízení) DI - volitelné
+-1A14.08 PLC øízení (základní zaøízení) CAN - volitelné
+-1A14.09 PLC øízení (základní zaøízení) DO - volitelné
+-1A14.10 PLC øízení (základní zaøízení) AI - volitelné
+-1A17 Ethernetový pøepínaè
+-X100.1 Svorky volnì programovatelných vstupù 1 - 3 (OP0450)
+-X100.2 Svorky volnì programovatelných vstupù 4 - 6 (OP0454)
+-1A26.1 Zásuvky - kombinace (OP1616)
+-1A26.1 Zásuvka kombi 2x CEE, 2x Schuko s FI (OP1616)
+-1A26.1-1X15 Zásuvka - 2 pol. + PE (v -1A26) (OP1616)
+-1A26.1-1X16 Zásuvka - 2 pol. + PE (v -1A26) (OP1616)
+-1A26.1-1X17 Zásuvka tvar CEE (v -1A26) (OP1616)
+-1A26.1-1X18 Zásuvka tvar CEE (v -1A26) (OP1616)
+-1A46 Modul evidence energie (Sigmatek) (OP4921)
+-1A50 Displej ovládacího terminálu
+-1A51 Klávesnice ovládacího terminálu
+-1S42 Tlaèítko nouzového zastavení ovládací terminál
+-1A64 Ovládací jednotka pro mìniè
+-1A64.a Øadiè jednotky pro SGM DI DO
+-1A64.b Øadiè jednotky pro SGM DI DO
+-1A64.c Øadiè jednotky pro SGM DI DO
+-1A64.d Øadiè jednotky pro SGM AI
+-1A64.e Øadiè jednotky pro SGM AI
+-1A64.f Øadiè jednotky pro SGM AI
+-1A64.g Øadiè jednotky pro SGM DO DI
+-1A64.h Øadiè jednotky pro SGM DO DI
+-1A64.i Øadiè jednotky pro SGM DO DI
+-1A64.j Øadiè jednotky pro SGM DO
+-1A64.m Øadiè jednotky pro SGM AO
+-1A64.X1 Øadiè jednotky pro SGM Varan Out
+-1A64.X2 Øadiè jednotky pro SGM Varan In
+-1A64.z1 Modul rozhraní pro SGM DI / DO rozhraní
+-1A64.z2 Modul rozhraní pro SGM DI / DO rozhraní
+-1A64.z3 Modul rozhraní pro SGM DI / DO rozhraní
+-1A64.z4 Modul rozhraní pro SGM DI / DO rozhraní
+-1A64.z5 Modul rozhraní pro SGM DI / DO rozhraní
+-1A64.z6 Modul rozhraní pro SGM DI / DO rozhraní
+-1B1 Tepelné èidlo - teplota oleje (OP1336)
+-1B10 Tepelné èidlo - chladiè mìnièe
+-1B2 Spínaè zneèištìní olejového filtru (OP1336)
+-1B3 Spínaè pro stav hladiny oleje (OP1336)
+-1B6 Snímaè systémového tlaku (OP1336)
+-1BM1 Kodér pro -1M1 (OP1336)
+-1E1 Vìtrák pro øídicí skøíò
+-1E100 Vìtrák pro -1M1 (OP1336)
+-1E61.1 Vìtrák ovládací skøínì
+-1E61.2 Vìtrák ovládací skøínì
+-1F1 Pojistka zákazníka pøed stroj
+-1F1.1 Pojistka zákazníka pøed stroj
+-1F1.2 Pojistka zákazníka pøed stroj
+-1F8 Jistiè (OP0542)
+-1F9.1 Jistiè 24 V DC kanál 1
+-1F9.2 Jistiè 24 V DC kanál 2
+-1F9.3 Jistiè 24 V DC kanál 3
+-1F9.4 Jistiè 24 V DC kanál 4
+-1F9.5 Jistiè 24 V DC kanál SE
+-1F9.6 Jistiè 24 V DC kanál EE
+-1F9.7 Jistiè 24 V DC kanál AWE (OP2173)
+-1F112 Jistiè - zásuvka -1X112
+-1F15 Jistiè - zásuvka -1X15 (OP1616)
+-1F16 Jistiè - zásuvka -1X16 (OP1616)
+-1F17 Pojistka pro zásuvku CEE -1X17 (OP1616)
+-1F18 Pojistka pro zásuvku CEE -1X18 (OP1616)
+-1F24 Pojistka pro zásuvku USA (OP1616)
+-1F60 Pøedjištìní pro -1T11 ventilátor trafa
+-1F90 Bleskojistka
+-1F92 Pøedjištìní pro servoøízení
+-1F103 Proudový chrániè pro vytápìní válce - volitelný
+-1F104 Proudový chrániè pro vytápìní formy - volitelný
+-1F115 Proudový chrániè (OP1616)
+-1F139 Pojistka CAN Bus (OP0552)
+-1G1 Napájecí zdroj 24 V DC
+-1G4 Modul vyrovnávací pamìti pro DC napájení
+-1G6.1 Napájecí zdroj 5 V DC
+-1G6.2 Napájecí zdroj +12 V DC
+-1G6.3 Napájecí zdroj -12 V DC
+-1H35 Indikace poruch - optická, všeobecná (bleskové svìtlo, blikání, èervená)
+-1H36 Indikace poruch - optická, všeobecná (bleskové svìtlo, blikání, žlutá) / OP1701
+-1H37 Indikace poruch - optická, všeobecná (bleskové svìtlo, blikání, zelená) / OP1701
+-1H46 Indikace poruch - akustická (houkaèka) / OP0171
+-1H111 Maják vnitøního prostoru formy (OP0296)
+-1K35 Relé cyklus bìží (OP0562)
+-1K36 Relé poloautomatika (OP0562)
+-1K37 Relé automatika (OP0562)
+-1K60 Hlavní stykaè pro mìniè
+-1K90 Stykaè pro nabíjení kondenzátorù meziokruh
+-1K100 Relé pro 1E100
+-1K111 Regulace vìtráku relé 0 / 50 %
+-1K111.1 Regulátor vìtráku relé ovládací skøíò 50 / 100 %
+-1L60 Škrticí klapka meziokruh
+-1L90 Tlumiè meziokruhu stejnosmìrného napìtí
+-1M1 Motor hydraulické stanice (OP1336)
+-1Q0 Hlavní spínaè
+-1Q1 Odpojovaè zátìže pro topení a pomocnou energii
+-1Q8 Odpojovaè zátìže pro síové èásti
+-1Q32 Odpojovaè pro zásuvky (OP1601)
+-1Q32.1 Proudový chrániè pro zásuvku (OP1601)
+-1Q35 Odpojovaè pro zásuvky (OP1616)
+-1Q39 Odpojovaè pro zásuvky (OP1616)
+-1Q60 Odpojovaè pro mìniè
+-1R1 Odpor pro vedení CAN-Bus (CPU)
+-1R2 Odpor pro vedení CAN-Bus (IBED)
+-1R90 Nabíjecí odpor meziokruh
+-1S42 Tlaèítko nouzového zastavení BS
+-1S42.1 Tlaèítko nouzového zastavení BGS
+-1S42.2 Tlaèítko nouzového zastavení BGS (OP2171)
+-1T2 Trafo 460 V / 230 V / 400 V
+-1T8.1 Mìniè proudu mìøení energie L1 (OP4921)
+-1T8.2 Mìniè proudu mìøení energie L2 (OP4921)
+-1T8.3 Mìniè proudu mìøení energie L3 (OP4921)
+-1T11 Øízení ventilátoru Trafo
+-1TM1 Snímaè teploty 1M1 (OP1336)
+-RCAB Mìøení teploty -1A64
+-1V90 Usmìròovaè meziokruh
+-1X10 Rozhraní hlavního poèítaèe (OP0563)
+-1X15 Schuko zásuvka (OP1616)
+-1X16 Schuko zásuvka (OP1616)
+-1X17 Zásuvka CEE 5-pol. (OP1616)
+-1X18 Zásuvka CEE 5-pol. (OP1616)
+-1X31 Zásuvka Compact-Handling (OP0546)
+-1X32 Zásuvka CEE 5-pol. (OP1601)
+-1X111 Zásuvka pro osvìtlení vnitøního prostoru formy (OP0296)
+-1X112 Schuko zásuvka (OP0160)
+-1X112.1 Schuko zásuvka ovládací skøíò
+-1Y99 Vestavìná tiskárna (OP0790)
+-1Y99-X1 Upínací místa na tiskárnì (OP0790)
+-1Y99-X2 Upínací místa na tiskárnì (OP0790)
+-1Z90 EMC filtr mìniè
+-1Z100 Regulace vìtráku odrušovací modul (OP1336)
+-1Z111.1 Regulace vìtráku odrušovací modul ovládací skøíò
+-2A21 Elektrický zámek dveøí pro stranu obsluhy
+-2A22 Elektrický zámek dveøí pro protilehlou stranu obsluhy
+-2A22.1 Elektrický zámek dveøí pro protilehlou stranu / OP2171
+-2A51 Mìøicí zesilovaè pro ochranu formy (OP0293)
+-2A68 Odnímaè vtokù (OP0760)
+-2B15.2 Snímaè vyhazovaèe hydr. zpìt stop (OP0231, OP2311)
+-2B39 Iniciátor pro otevøení ochranných dveøí BS (OP0240)
+-2B51 Snímaè síly ochrany formy (OP0293)
+-2B53.A Senzor uzavírací síly
+-2B53.B Senzor uzavírací síly
+-2B54 Termoèlánek pro okruh formy 1 (OP0555)
+-2B55 Termoèlánek pro okruh formy 2 (OP0555)
+-2B75 Senzor teploty SE vøetena / OP0202
+-2B87 Iniciátor vyhazovaèe desky (ochrana formy) / OP0541
+-2B89 Iniciátor posuvných èelistí / OP0544
+-2B225 Tlakový spínaè ukonèení mazání olejem
+-2BM1 Enkodér motoru SE
+-2BM4 Enkodér motoru AW
+-2C67 Kondenzátor pro rozhraní kontroly vypadávání (OP0542)
+-2E90.1 Vìtrák servomotoru pohonu zavírací jednotky
+-2E90.2 Vìtrák servomotoru pohonu zavírací jednotky
+-2F72 Pojistka pro pohon dveøí (-2A72) / OP0240
+-2H43 Svìtlo pro potvrzovací tlaèítko -2S43 / OP2171
+-2K0 Stykaè pohonu uzavírací jednotky
+-2K0.A Stykaè motoru zavírací jednotky
+-2K0.B Stykaè motoru zavírací jednotky
+-2K32 Relé výpadkové váhy / OP0544
+-2K97 Relé pro kontrolu prostoje SE
+-2K97.1 Relé pro kontrolu prostoje SE
+-2K111 Regulace vìtráku relé SE 50 / 100 %
+-2M72 Motor pohonu dveøí (OP0240)
+-2M1 Motor pro SE
+-2M3 Motor pro nastavení výšky formy
+-2M4 Motor pro AWE
+-2M10 Motor mazání tukem
+-2P3 Váha kontroly výpadkù, pøíp. fotobuòka (OP0542)
+-2R54 NTC odpor teploty souèástí (OP0555)
+-2R67 Odpor pro rozhraní kontroly vypadávání (OP0542)
+-2S2 Polohový spínaè dveøí BS
+-2S2.1 Polohový spínaè ochrana BAP BS (OP2173)
+-2S2.2 Polohový spínaè dveøí BGS
+-2S4 Klíèový spínaè pro vyhazovaè / jádra pøi otevøených ochranných dveøí (OP2173)
+-2S6 Iniciátor ochranných dveøí zcela otevøené (OP2171)
+-2S10 Koncový spínaè rameno je nahoøe (OP0760)
+-2S11 Koncový spínaè rameno je dole (OP0760)
+-2S12 Koncový spínaè zdvih odformování ukonèen (OP0760)
+-2S13 Koncový spínaè vtok uchopen (OP0760)
+-2S22 Senzor jádra (OP0231)
+-2S23 Senzor jádra (OP0231)
+-2S24 Senzor jádra (OP0231)
+-2S25 Senzor jádra (OP0231)
+-2S38.3 Tlaèítko stop (OP2171)
+-2S43 Potvrzovací tlaèítko ochranné dveøe BGS zavøeny (OP2171)
+-2S70 Senzor jádra (OP0282 / 0283)
+-2S71 Senzor jádra (OP0282 / 0283)
+-2S72 Senzor jádra (OP0282 / 0283)
+-2S73 Senzor jádra (OP0282 / 0283)
+-2S84 Senzor jádra (OP2311)
+-2S85 Senzor jádra (OP2311)
+-2S87 Senzor jádra (OP2311)
+-2S88 Senzor jádra (OP2311)
+-2S114 Senzor závory (OP0287)
+-2S140 Souhlasné tlaèítko (OP2173)
+-2TM1 Teplotní senzor motoru SE
+-2TM3 Teplotní senzor motoru nastavení výšky formy
+-2TM4 Teplotní senzor motoru AWE
+-2V67 Dioda (OP0542)
+-2X1 Konektor pro ovládání rozhraní (OP0523)
+-2X6 Konektor pro TTY (20 mA) rozhraní (OP0556)
+-2X12 Konektor pro koncové spínaèe 1 ... 2 jádra,
+-2S22 ... -2S25 (OP0231)
+-2X131 Konektor pro koncové spínaèe 2 ... 4 jádra,
+-2S26 ... -2S29 (OP2311)
+-2X26 Konektor pro rozhraní - Pojistka boèní zarážky (OP0544)
+-2X30 Konektor jader 5 + 6 (Euromap 13) (OP0283, OP0282)
+-2X44 Konektor pro provoz pøi otevøených ochranných dveøí BGS (OP2171)
+-2X68 Konektor pro odnímaè vtokù (OP0760)
+-2X88 Konektor pro ochranu formy - deska vyhazovaèe, koncový spínaè -2B87 (OP0541)
+-2X56 Konektor -256 (OP2171)
+-2XB225 Konektor -2B225 mazání tukem
+-2X1.12 Konektor (OP0528)
+-2X31 Konektor zobrazení teploty formy (OP0555)
+-2X32 Konektor zobrazení teploty formy (OP0555)
+-2XM72 Konektor motoru (OP0240)
+-2X1.67 Konektor Euromap 12 (OP0528)
+-230X1 Konektor ovládání (OP0752)
+-230X12 Konektor zaslepovací zástrèka (OP0752)
+-2X101(.1) Zaslepovací zástrèka pro ovládání - rozhraní -2X1, (-2X1.1) (OP0523)
+-2X103 Zaslepovací zástrèka pro koncový spínaè - ochrana formy - deska vyhazovaèe - rozhraní -2X88 (OP0541)
+-2X120.1(.2-.4) Zaslepovací zástrèka pro koncové spínaèe - jádra - rozhraní -2X12 / -2X131 / -2X30 (OP231, OP2311, OP0282, OP283)
+-2X126 Zaslepovací zástrèka pro pojistku postranního šoupátka - rozhraní -2X26 (OP0544)
+-2XB39 Konektor pro iniciaèní prvek -2B39 (OP0240)
+-2XE90 Rozdìlovaè ventilátoru SE
+-2XM10 Zástrèka mazání tukem
+-2Y11.1 Ventil (OP0224 / 0225)
+-2Y11.2 Ventil (OP0224 / 0225)
+-2Y12.1 Ventil (OP0224 / 0225)
+-2Y12.2 Ventil (OP0224 / 0225)
+-2Y13 Ventil jádra (OP0231)
+-2Y14 Ventil jádra (OP0231)
+-2Y15 Ventil jádra (OP0231)
+-2Y16 Ventil jádra (OP0231)
+-2XM1 Konektor -2M1 SE
+-2XTM1 Konektor teploty -2M1
+-2XM4 Konektor -2M4 AWE
+-2XB51 Konektor -2A51 (OP0293)
+-2XB53 Konektor snímaè uzavírací síly
+-2XB75 Konektor teploty vøetena (OP0202)
+-2XM3 Konektor -2M3 WZHV
+-250X1(X2) Konektor klapky QS (OP0705)
+-2Y22 Ventil chlazení formy (OP0252)
+-2Y26 Ventil (OP0760)
+-2Y27 Ventil (OP0760)
+-2Y28 Ventil (OP0760)
+-2Y74 Ventil jádra (OP2311)
+-2Y75 Ventil jádra (OP2311)
+-2Y88 Ventil jádra (OP2311)
+-2Y89 Ventil jádra (OP2311)
+-2Y181 Ventil jádra (OP0282 / 0283)
+-2Y182 Ventil jádra (OP0282 / 0283)
+-2Y183 Ventil jádra (OP0282 / 0283)
+-2Y184 Ventil jádra (OP0282 / 0283)
+-2Z111 Regulace ventilátoru RC ochrana SE
+-3B1 Vysílaè tlaku Pøítlak trysky
+-3B21 Snímaè vstøikovacího tlaku
+-3BM2 Kodér pro -3M2
+-3K111 Regulace vìtráku relé EE 50 / 100 %
+-3M2 Motor pro EE dopøedu / zpìt
+-3S3 Koncový spínaè ochranné møížky EE
+-3TM2 Teplotní senzor motoru pro EE dopøedu / zpìt
+-3Y1 Ventil EE dopøedu (OP1336)
+-3Y2 Ventil EE zpìt (OP1336)
+-3Y3 Ventil pøítlaku trysky
+-3Z111 Regulace ventilátoru RC ochrana EE
+-4B6 Teplotní èidlo pro plnicí zónu
+-4B28 Iniciátor spoj. prostoru ochrany EE
+-4BM1 Enkodér motoru dávkování
+-4BM7 Enkodér motoru vstøikování
+-4E90.1 Vìtrák servomotoru pohonu SC
+-4E90.2 Vìtrák servomotoru pohonu SC
+-4E91.1 Vìtrák servomotoru pohonu EE
+-4E91.2 Vìtrák servomotoru pohonu EE
+-4K20 Relé rozhraní dávkování (OP0546)
+-4M1 Motor dávkování
+-4M7 Motor vstøikování
+-4M7A Vstøikovací motor
+-4M7B Vstøikovací motor
+-4R1 Senzor dráhy EE (OP0030)
+-4TM1 Teplotní senzor motoru pro dávkování
+-4TM7 Teplotní senzor motoru pro vstøikování
+-4U3.1 Senzor WID (OP0352)
+-4X1 Konektor pro -4R1 (OP0030)
+-4X20 Konektor kontaktu dávkování (OP0546)
+-4XE90.1 Rozdìlovaè ventilátoru EE
+-4XE91.1 Rozdìlovaè ventilátoru EE
+-4Y43 Ventil trysky horkého vtoku (OP0276)
+-4Y45 Ventil uzavøení trysky (OP0665)
+-4Y60 Ventil chlazení plnicí zóny
+-4U3.2 Senzor WID (OP0353)
+-4X12 Konektor dotlaku (OP3571)
+-6B1 Snímaè teploty vytápìní válce
+-6B2 Snímaè teploty vytápìní válce
+-6B3 Snímaè teploty vytápìní válce
+-6B4 Snímaè teploty vytápìní válce
+-6B10 Snímaè teploty vytápìní válce
+-6B35 Termoèlánek DH 2
+-6B101 Snímaè teploty horkého vtoku (OP0268 - OP0272)
+-6B102 Snímaè teploty horkého vtoku (OP0268 - OP0272)
+-6B103 Snímaè teploty horkého vtoku (OP0268 - OP0272)
+-6B104 Snímaè teploty horkého vtoku (OP0268 - OP0272)
+-6B105 Snímaè teploty horkého vtoku (OP0268 - OP0272)
+-6B106 Snímaè teploty horkého vtoku (OP0268 - OP0272)
+-6B107 Snímaè teploty horkého vtoku (OP0268 - OP0272)
+-6B108 Snímaè teploty horkého vtoku (OP0268 - OP0272)
+-6B109 Snímaè teploty horkého vtoku (OP0268 - OP0272)
+-6B110 Snímaè teploty horkého vtoku (OP0268 - OP0272)
+-6B111 Snímaè teploty horkého vtoku (OP0268 - OP0272)
+-6B112 Snímaè teploty horkého vtoku (OP0268 - OP0272)
+-6B113 Snímaè teploty horkého vtoku (OP0268 - OP0272)
+-6B114 Snímaè teploty horkého vtoku (OP0268 - OP0272)
+-6B115 Snímaè teploty horkého vtoku (OP0268 - OP0272)
+-6B116 Snímaè teploty horkého vtoku (OP0268 - OP0272)
+-6B117 Termoèlánek horkého vtoku - zóna HK 17
+-6B118 Termoèlánek horkého vtoku - zóna HK 18
+-6B119 Termoèlánek horkého vtoku - zóna HK 19
+-6B120 Termoèlánek horkého vtoku - zóna HK 20
+-6B121 Termoèlánek horkého vtoku - zóna HK 21
+-6B122 Termoèlánek horkého vtoku - zóna HK 22
+-6B123 Termoèlánek horkého vtoku - zóna HK 23
+-6B124 Termoèlánek horkého vtoku - zóna HK 24
+-6C1 Kondenzátor odrušení vytápìní válce
+-6C2 Kondenzátor odrušení vytápìní válce
+-6C3 Kondenzátor odrušení vytápìní válce
+-MH1.1-6E1.1 Topný pás MH 1.1
+-MH1.2 Topný pás MH 1.2
+-MH2 Topný pás MH 2.1
+-MH3.1 Topný pás MH 3.1
+-MH3.2 Topný pás MH 3.2
+-MH4.1 Topný pás MH 4.1
+-MH4.2 Topný pás MH 4.2
+-DH1.1 Topný pás DH 1.1
+-DH1.2 Topný pás DH 1.2
+-6E10.15 Pøídavná tryska topného pásu (OP0532)
+-6F1.1 Pojistka vytápìní válce
+-6F1.2 Pojistka vytápìní válce
+-6F2 Pojistka vytápìní válce
+-6F3.1 Pojistka vytápìní válce
+-6F3.2 Pojistka vytápìní válce
+-6F4.1 Pojistka vytápìní válce
+-6F4.2 Pojistka vytápìní válce
+-6F10 Pojistka vytápìní válce
+-6F35 Pojistka pøídavného topného pásu trysky (OP0532)
+-6F101 Pojistka horkého vtoku 1 (OP0268 - OP0278)
+-6F102 Pojistka horkého vtoku 2 (OP0268 - OP0278)
+-6F103 Pojistka horkého vtoku 3 (OP0268 - OP0278)
+-6F104 Pojistka horkého vtoku 4 (OP0268 - OP0278)
+-6F105 Pojistka horkého vtoku 5 (OP0268 - OP0278)
+-6F106 Pojistka horkého vtoku 6 (OP0268 - OP0278)
+-6F107 Pojistka horkého vtoku 7 (OP0268 - OP0278)
+-6F108 Pojistka horkého vtoku 8 (OP0268 - OP0278)
+-6F109 Pojistka horkého vtoku 9 (OP0268 - OP0278)
+-6F110 Pojistka horkého vtoku 10 (OP0268 - OP0278)
+-6F111 Pojistka horkého vtoku 11 (OP0268 - OP0278)
+-6F112 Pojistka horkého vtoku 12 (OP0268 - OP0278)
+-6F113 Pojistka horkého vtoku 13 (OP0268 - OP0278)
+-6F114 Pojistka horkého vtoku 14 (OP0268 - OP0278)
+-6F115 Pojistka horkého vtoku 15 (OP0268 - OP0278)
+-6F116 Pojistka horkého vtoku 16 (OP0268 - OP0278)
+-6F117 Samoèinná pojistka horkého vtoku 17 (OP0268 - OP0278)
+-6F118 Samoèinná pojistka horkého vtoku 18 (OP0268 - OP0278)
+-6F119 Samoèinná pojistka horkého vtoku 19 (OP0268 - OP0278)
+-6F120 Samoèinná pojistka horkého vtoku 20 (OP0268 - OP0278)
+-6F121 Samoèinná pojistka horkého vtoku 21 (OP0268 - OP0278)
+-6F122 Samoèinná pojistka horkého vtoku 22 (OP0268 - OP0278)
+-6F123 Samoèinná pojistka horkého vtoku 23 (OP0268 - OP0278)
+-6F124 Samoèinná pojistka horkého vtoku 24 (OP0268 - OP0278)
+-6K26 Stykaè horkého vtoku (OP0268 - OP0278)
+-6K27 Stykaè vytápìní válce
+-6Q99 Zátìžový odpojovaè horkého vtoku (OP0268 - OP0278)
+-6R42 Referenèní odpor horkého vtoku (OP0268 - OP0278)
+-6R43 Referenèní odpor horkého vtoku (OP0268 - OP0278)
+-6V1 Polovodièové relé vytápìní válce
+-6V2 Polovodièové relé vytápìní válce
+-6V3 Polovodièové relé vytápìní válce
+-6V4 Polovodièové relé vytápìní válce
+-6V20 Polovodièové relé horkého vtoku (OP0268 - OP0278)
+-6V22 Polovodièové relé horkého vtoku (OP0268 - OP0278)
+-6V24 Polovodièové relé horkého vtoku (OP0268 - OP0278)
+-6V26 Polovodièové relé horkého vtoku (OP0268 - OP0278)
+-6V28 Polovodièové relé horkého vtoku (OP0268 - OP0278)
+-6V30 Polovodièové relé horkého vtoku (OP0268 - OP0278)
+-6V32 Polovodièové relé horkého vtoku (OP0268 - OP0278)
+-6V34 Polovodièové relé horkého vtoku (OP0268 - OP0278)
+-6V35 Polovodièové relé horkého vtoku (OP0532)
+-60X50 Svorkovnice pro kondenzátory 6K27
+-6X9 Konektor termoèlánku plastifikaèního válce
+-6X9.1 Konektor termoèlánku DH 1
+-6X10(.1-.2-.3) Konektor topných pásù DH (.1-.2-.3)
+-6X13 Konektor topení válce
+-6X13.1 Konektor pro vypájení válce od EE >= 560
+-6X15.1 Konektor topného pásu DH 2 (OP0532)
+-6X15.2 Konektor topného pásu DH 2 (OP0532)
+-6X42 Svorkovnice pro -6R42 (OP0268 - OP0278)
+-6X43 Svorkovnice pro -6R43 (OP0268 - OP0278)
+-6X85(.1-.3) Konektor pro horký vtok - zóny HK 1 ... HK 24 (OP0268 - OP0278)
+-6X89(.1-.3) Konektor pro termoèlánky horkého vtoku - Zóny HK 1 ... HK 24 (OP0268 - OP0278)
+-6X99(.1-.3) Zaslepovací zástrèka pro termoèlánek - zásuvky horkého vtoku (OP0268 - OP0278)
+-6X35 Konektor 6B35 (OP0532)
+-230X1 Konektor pro integrované ovládání (OP0752)
+-230X10 Zaslepovací zástrèka pro integrované ovládání (OP0752)
+-250B30 Senzor (OP0705)
+-250B31 Senzor (OP0705)
+-250B32 Koncový spínaè klapky QS (OP0705)
+-250X2 Konektor klapky QS
+-250Y30 Ventil (OP0705)
+-250Y31 Ventil (OP0705)
+-100Q Výkonový spínaè pro SO
+-CT1 Mìniè proudu osy vstøikování
+-CT2 Mìniè proudu osy dávkování
+-CT3 Mìniè proudu osy SE
+-CT4 Mìniè proudu osy AWE
+-CT5 Mìniè proudu osy pojíždìní EE / OP1336
+-CT6 Mìniè proudu osy nastavení výšky formy
+-CT50 Mìniè proudu meziokruhu
+-DBR1 Brzdný odpor mìnièe
+-DBR2 Brzdný odpor mìnièe
+-DH1.1 Topný pás trysky
+-DH1.2 Topný pás trysky
+-DH1.3 Topný pás trysky
+-F1 Pojistka pøívodu proudu ze strany zákazníka
+-F2 Pojistka pøívodu proudu ze strany zákazníka
+-HK1 Vytápìní horkého vtoku (OP0268 - OP0278)
+-HK10 Vytápìní horkého vtoku (OP0268 - OP0278)
+-HK11 Vytápìní horkého vtoku (OP0268 - OP0278)
+-HK12 Vytápìní horkého vtoku (OP0268 - OP0278)
+-HK13 Vytápìní horkého vtoku (OP0268 - OP0278)
+-HK14 Vytápìní horkého vtoku (OP0268 - OP0278)
+-HK15 Vytápìní horkého vtoku (OP0268 - OP0278)
+-HK16 Vytápìní horkého vtoku (OP0268 - OP0278)
+-HK2 Vytápìní horkého vtoku (OP0268 - OP0278)
+-HK3 Vytápìní horkého vtoku (OP0268 - OP0278)
+-HK4 Vytápìní horkého vtoku (OP0268 - OP0278)
+-HK5 Vytápìní horkého vtoku (OP0268 - OP0278)
+-HK6 Vytápìní horkého vtoku (OP0268 - OP0278)
+-HK7 Vytápìní horkého vtoku (OP0268 - OP0278)
+-HK8 Vytápìní horkého vtoku (OP0268 - OP0278)
+-HK9 Vytápìní horkého vtoku (OP0268 - OP0278)
+-MH1.1 Vytápìní válce topný pás
+-MH1.2 Vytápìní válce topný pás
+-MH2 Vytápìní válce topný pás
+-MH3.1 Vytápìní válce topný pás
+-MH3.2 Vytápìní válce topný pás
+-MH4.1 Vytápìní válce topný pás
+-MH4.2 Vytápìní válce topný pás
+-R1 Vybíjecí odpor meziobvod mìniè
+-R1.1 Vybíjecí odpor meziobvod mìniè
+-R10 Vybíjecí odpor meziobvod mìniè
+-R13 Vybíjecí odpor meziobvod mìniè
+-R14 Vybíjecí odpor meziobvod mìniè
+-R15 Vybíjecí odpor meziobvod mìniè
+-R16 Vybíjecí odpor meziobvod mìniè
+-R2 Vybíjecí odpor meziobvod mìniè
+-R2.1 Vybíjecí odpor meziobvod mìniè
+-R3 Vybíjecí odpor meziobvod mìniè
+-R3.1 Vybíjecí odpor meziobvod mìniè
+-R4 Vybíjecí odpor meziobvod mìniè
+-R4.1 Vybíjecí odpor meziobvod mìniè
+-R5 Vybíjecí odpor meziobvod mìniè
+-R6 Vybíjecí odpor meziobvod mìniè
+-R7 Vybíjecí odpor meziobvod mìniè
+-R8 Vybíjecí odpor meziobvod mìniè
+-R9 Vybíjecí odpor meziobvod mìniè
+-RCAB Snímaè teploty ovládací skøínì
+-X18.0 Potenciální dìliè GND BS
+-X18.1 Potenciální dìliè 24 V DC BS
+-X18.2 Potenciální dìliè 24 V DC BS
+-X18.3 Potenciální dìliè 24 V DC BS
+-X18.4 Potenciální dìliè 24 V DC BGS
+-X18.5 Potenciální dìliè GND BGS
+-X18.6 Zvláštní svorka BGS
+-X18.7 Potenciální dìliè 5 V DC BGS
+-X18.8 Potenciálnì dìliè 12 V DC BGS
+-X18.PE Potenciální dìliè PE BS
+-X18.PE1 Potenciální dìliè PE BGS
+-X51 Potenciální dìliè N / PE
+-X51.1 Potenciální dìliè N / PE
+-X51.2 Potenciální dìliè N / PE
+-X51.3 Potenciální dìliè N / PE
+-X52 Svorkovnice (N, PE) øízení
+-X87 Svorka rozdìlení osy rychlé zastavení
+-X100.1 Rozhraní E / A volnì programovatelné (OP0450 / 0454)
+-X100.2 Rozhraní E / A volnì programovatelné (OP0450 / 0454)
+-XCN-EC1 Rozhraní snímaèe motoru vstøikování
+-XCN-EC2 Rozhraní snímaèe motoru dávkování
+-XCN-EC3 Rozhraní snímaèe motoru SE
+-XCN-EC4 Rozhraní snímaèe motoru AWE
+-XCN-EC5 Rozhraní snímaèe motoru pojíždìní EE (OP1336)
+-XCN-EC6 Rozhraní snímaèe motoru WZH
+-XCN-IPM1 Rozhraní ovládání powermodulu mìnièe vstøikování
+-XCN-IPM2 Rozhraní ovládání powermodulu mìnièe dávkování
+-XCN-IPM3 Rozhraní ovládání powermodulu mìnièe SE
+-XCN-IPM4 Rozhraní ovládání powermodulu mìnièe AWE
+-XCN-IPM5 Rozhraní ovládání powermodulu mìnièe pojíždìní EE (OP1336)
+-XCN-IPM6 Rozhraní ovládání powermodulu mìnièe WZH
+-XS1 Svorka stínìní ovládací skøínì BGS
+-XS2 Svorka stínìní ovládací skøínì BGS

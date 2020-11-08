@@ -1,0 +1,118 @@
+1DB1 Tlakovı pojišovací ventil pro vysokı tlak
+1DB7 Tlakovı pojišovací ventil pro pøedehøev oleje
+1FT1 Filtr sání oleje
+1FT6.1 Odvzdušòovací filtr nádre oleje
+1FT6.2 Odvzdušòovací filtr nádre oleje
+1FT5 Jemnı vıtlaènı filtr oleje
+1MA1 Hlavní manometr
+1PF7 Nízkotlaké èerpadlo
+1PV1 Èerpadlo s regulovanım vıkonem 1
+1RV6.1 Zpìtnı ventil redukce tlaku 1PV1
+1RV2 Zpìtnı ventil v tlaku
+1SH2 Regulaèní ventil 1PV1
+1SH22.1 Rozvádìcí ventil chlazení el. pohonu šneku
+1SH22.2 Rozvádìcí ventil chlazení el. pohonu uzavírací jednotky
+1SH22.11 Rozvádìcí ventil chlazení mìnièe EE (-4A4)
+1SH22.21 Rozvádìcí ventil chlazení mìnièe SE (-2A0)
+1SH23 Øídicí ventil pro pøepojení na pøedehøev oleje
+1SH24 Øídicí ventil chlazení hydraulického oleje
+1WT1 Chladiè hydraulického oleje
+2AS14 Uzavírací ventil redukce tlaku tahaèe jader
+2AS20 Uzavírací ventil chlazení formy na regulátoru prùtoku
+2AS38 Uzavírací ventily vyfukovacího zaøízení pro chladicí okruhy formy
+2DB38.1 Tlakovı pojišovací ventil pro zablokování formy
+2DB38.2 Tlakovı pojišovací ventil pro odblokování formy
+2DB39 Tlakovı pojišovací ventil pro pracovní tlak uzavøeného okruhu
+2DE15 Nastavení tlaku proporcionálnì pro jádra
+2DM41 Redukèní ventil vytahování sloupu
+2DM42 Redukèní ventil pro upínání formového stolu
+2DM43 Redukèní ventil pro upínání koncové desky
+2DM44 Redukèní ventil pro odlehèení uzavøeného okruhu
+2DV20 Škrticí ventil chlazení formy
+2FT20 Vodní filtr (pøívod chladicí vody)
+2KV16 Redukèní ventil pro jádra
+2MA13 Tlakomìr pro jádra (jen tehdy, kdy prop. = OP)
+2PF9 Èerpadlo pro uzavírací jednotku
+2RV2 Zpìtnı ventil pro ventil 2SH4
+2RV4 Zpìtnı ventil pro pøedbìné nastavení uzavíracího tlaku
+2RV5 Zpìtnı ventil s elektr. kontrolou pro ochranu formy
+2RV12 Zpìtnı ventil pro vypuštìní tlaku
+2RV16 Zpìtnı ventil pro tlakové vedení hydraulického vyhazovaèe
+2RV19 Zpìtnı ventil ve vedení nádre pro tahaè jader
+2RV43 Odblokovatelnı zpìtnı ventil pro tahaè jader 1
+2RV44 Odblokovatelnı zpìtnı ventil pro tahaè jader 2
+2RV48 Odblokovatelnı zpìtnı ventil pro tahaè jader 3
+2RV49 Odblokovatelnı zpìtnı ventil pro tahaè jader 4
+2RV81 Odblokovatelnı zpìtnı ventil pro tahaè jader 5 (od SE 550)
+2RV82 Odblokovatelnı zpìtnı ventil pro tahaè jader 6 (od SE 550)
+2RV96/97 Zpìtnı ventil pro vypuštìní tlaku tahaèe jádra 1
+2RV98/99 Zpìtnı ventil pro vypuštìní tlaku tahaèe jádra 2
+2RV100/101 Zpìtnı ventil pro vypuštìní tlaku tahaèe jádra 3
+2RV102/103 Zpìtnı ventil pro vypuštìní tlaku tahaèe jádra 4
+2RV116 Zpìtnı ventil pro upínání formového stolu
+2RV117 Zpìtnı ventil vytahování sloupu
+2RV119 Zpìtnı ventil upínání koncové desky
+2RV167.1(.2) Zpìtnı ventil pro napájení uzavøeného okruhu
+2RV168 Zpìtnı ventil pro ochranu èerpadla odpadního oleje 2PF (od EL-Exis SP 250/630)
+2RV170 Zpìtnı ventil ve vedení tvaru T 2SH123
+2SH1 Proporcionální ventil pro otevírání a zavírání formy
+2SH3 Øídicí ventil diferenciálního spínání
+2SH4 Øídicí ventil pro zajištìní uzavíracího zdvihu
+2SH5 Øídicí ventil hydraulického vyhazovaèe
+2SH13 Øídicí ventil tahaèe jádra 1 (proporcionální = OP)
+2SH15 Øídicí ventil tahaèe jádra 2 (proporcionální = OP)
+2SH17 Øídicí ventil tahaèe jádra 3 (proporcionální = OP)
+2SH19 Øídicí ventil tahaèe jádra 4 (proporcionální = OP)
+2SH22 Øídicí ventil pro chlazení formy
+2SH40 Øídicí ventil pro horké vtoky
+2SH66 Øídicí ventil pro vyrovnání tlakù uzavøeného okruhu
+2SH68 Øídicí ventil pro cívky uzavøeného okruhu
+2SH108 Øídicí ventil tahaèe jádra 5 (proporcionální = OP)
+2SH109 Øídicí ventil tahaèe jádra 6 (proporcionální = OP)
+2SH116 Øídicí ventil upínání formového stolu
+2SH119 Øídicí ventil vytahování sloupu
+2SH121 Øídicí ventil upínání koncové desky
+2SH157 Øídicí ventil pro ovládání 2SV49
+2SV49 Sedlovı ventil pro blokování uzavøeného okruhu
+2WV8 Pøepínací ventil pro tlak vyhazovaèe
+2WV10 Pøepínací ventil pro 2SV49
+2ZY1.1-.2 Uzavírací válec
+2ZY6 Válec vyhazovaèe
+2ZY19 Válec vytahování sloupu
+2ZY20 Válec upínání formového stolu
+2ZY21 Válec upínání koncové desky
+3RV3 Zpìtnı ventil v tlakovém vedení pøesouvacího válce
+3RV8 Zpìtnı ventil zbytkového tlaku soustavy trysky
+3RV11 Zpìtnı ventil ve vedení tvaru T pøesouvacího válce
+3SH1 Øídicí ventil pojezdu trysky vpøed a vzad
+3ZY1.1 Pøesouvací válec
+3ZY1.2 Pøesouvací válec
+4AS3 Uzavírací ventil pro ukazatel tlaku zásobníku
+4AS4 Uzavírací ventil pro ruèní vyprázdnìní zásobníku
+4DB1 Zásobník bezpeènostní ventil
+4DB9 Tlakovı pojišovací ventil pro horké vtoky
+4DM8 Redukèní tlakovı ventil ovládání horké vtoky
+4MA1 Manometr pro tlak zásobníku
+4MA3 Manometr pro plnicí tlak šneku
+4MA7 Manometr pro ovládání horké vtoky
+4RV2 Zpìtnı ventil pro pøisávání bìhem dávkování
+4RV10 Zpìtnı ventil v øídicím vedení vstøikování (jen se zásobníkem = OP)
+4RV11 Zpìtnı ventil v øídicím vedení vstøikování (jen se zásobníkem = OP)
+4RV12 Zpìtnı ventil v tlakovém vedení vstøikování (jen se zásobníkem = OP)
+4RV16 Zpìtnı ventil v tlakovém vedení pro hydr. uzávìr trysky
+4RV32.1 Zpìtnı ventil ve vedení nádre pro øídicí ventil 4SH1
+4RV32.2 Zpìtnı ventil ve vedení nádre pro øídicí ventil 4SH1
+4RV70 Zpìtnı ventil v tlakovém vedení ovládání horké vtoky
+4RV81 Zpìtnı ventil ve vedení T pro dávkování
+4SH1 Øídicí ventil vstøikování
+4SH5 Øídicí ventil pro hydr. uzávìr trysky
+4SH8 Øídicí ventil automatického sníení tlaku v zásobníku (jen se zásobníkem = OP)
+4SH10 Øídicí ventil vstøikování se zásobníkem (jen se zásobníkem = OP)
+4SH23 Øídicí chlazení pøevodovky el. pohonu šneku
+4SH40 Øídicí ventil ovládání horké vtoky
+4SH60 Øídicí ventil chlazení plnicí zóny
+4SP1 Zásobník tlaku pro rychlé vstøikování (jen se zásobníkem = OP)
+4SV10 Sedlovı ventil vstøikování se zásobníkem (jen se zásobníkem = OP)
+4WV9 Pøepínací ventil pro pøedøadné øízení 4SV10
+4ZY1 Vstøikovací válec
+4ZY5 Válec pro hydraulickı uzávìr trysky

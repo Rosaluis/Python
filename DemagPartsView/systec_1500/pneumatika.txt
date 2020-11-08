@@ -1,0 +1,26 @@
+2AS38 Vypínací ventil vyfukovacieho zariadenia pre nástroj
+2DB6 Tlakovı obmedzovací ventil pre pneumatické bezpeènostné dvere
+2DE18 Vzduchová jednotka pre automatické ochranné dvierka
+2DE51 Centrálna vzduchová jednotka
+2DE52 Tlakovı regulaènı ventil - vzduchová jednotka
+2DR4 Spätnı ventil pre pneumatické bezpeènostné dvere
+2DV11 Škrtiaci ventil pre pneumatické bezpeènosté dvere zat.
+2DZ51 Manuálny tlakovı pripájací/odpájací ventil vzduchová jednotka
+2FT51 Filter vzduchovej jednotky - manuálny tlakovı pripájací/odpájací ventil
+2FT52 Filter vzduchovej jednotky - tlakovı regulaènı ventil
+2MA51 Manometer vzduchovej údrby
+2MA52 Manometer jednotky údrby Pneumatika
+2SH11 Pneumatickı ventil è. 1
+2SH12 Pneumatickı ventil è. 2
+2SH176 Rozvodnı ventil ahaèa jadier 1 / ZE
+2SH177 Rozvodnı ventil ahaèa jadier 2 / ZE
+2SH26 Rozvodnı ventil pre automatické ochranné dvierka
+2SH28 Rozvodnı ventil pre automatické ochranné dvierka
+2SH145 Rozvodnı ventil pre automatické ochranné dvierka
+2SH88 Pneumatickı venti è. 3
+2SH143 Pneumatickı ventil è. 4
+2RV171 Spätnı ventil vyfukovacieho zariadenia pre nástroj
+2WV9 Prepínací ventil pre pneumatické bezpeènostné dvere
+2ZY4 Valec pre pneumatické bezpeènostné dvere
+4SH43 Pneumatickı ventil riadenia dız horúceho kanála
+4SH45 Pneumatickı ventil dızy SVP

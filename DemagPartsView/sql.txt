@@ -1,0 +1,5 @@
+SELECT parts.partName, parts.partDescription, kinds.kindName, machines.machineName, parts.partLink
+FROM parts
+INNER JOIN kinds ON parts.partKind = kinds.kindID
+INNER JOIN machines ON parts.partMachine = machines.machineId
+WHERE parts.partName LIKE "%1B%"

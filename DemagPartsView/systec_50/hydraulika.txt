@@ -1,0 +1,93 @@
+1DB1 Tlakový omezovací ventil tlaku v systému 1PV1
+1DB2 Tlakový omezovací ventil paralelního èerpadla 1PV2
+1FT1 Sací filtr - èerpadlo
+1FT2 Sací filtr - doplòkové èerpadlo
+1FT5 Systémový filtr
+1FT6 Filtr pro plnìní/odvìtrání
+1FT6.1 Odvzdušòovací filtr nádrže oleje
+1FT20 Filtr chladicí vody
+1FV4 Pøedpínací ventil 1PV1
+1FV5 Pøedpínací ventil 1PV2
+1MA1 Manometr 1PV1
+1RV6.1 Zpìtný ventil redukce tlaku 1PV1
+1RV6.2 Zpìtný ventil redukce tlaku 1PV2
+1SH1 Regulaèní ventil -1PV2
+1SH7 Regulaèní ventil -1PV1
+1SH11 Øídicí ventil pøipojení proudìní oleje
+1SH23 Øídicí ventil pro pøedehøev oleje
+1SH24 Øídicí ventil pøipojení chladicí vody chladièe hydraulického oleje
+1PF2 Hlavní èerpadlo (servo)
+1PF7 Obìhové èerpadlo
+1PV1 Hlavní èerpadlo
+1PV2 Paralelní èerpadlo
+1RV26.1 Zpìtný ventil obtoku filtr / nádrž
+1RV26.2 Zpìtný ventil obtoku nádrže
+1WT1 Výmìník tepla hydraulického oleje
+2AS14 Uzavírací ventil vypuštìní tlaku jader 1/2 / 3/4 ZE
+2AS20 Uzavírací ventil chlazení formy
+2DE15 Redukèní ventil pro omezení tlaku jader a hydraulických vyhazovaèù (-2A62)
+2DB24 Tlakový omezovací ventil multiplikátoru
+2DB24.1 Tlakový omezovací ventil trubkového vedení pro pohyby formy
+2DR6 Zpìtný škrticí ventil kanálu B AWH
+2DV20 Škrticí ventil chlazení formy
+2KV16 Váha tlaku pro množství - jádra a hydraulické vyhazovaèe
+2MA13 Manometr pro redukci tlaku
+2RV2 Zpìtný ventil v tlakovém vedení pro pohyby formy
+2RV12 Zpìtný uzavírací ventil vypuštìní tlaku
+2RV14 Zpìtný ventil - 2SV21
+2RV19 Zpìtný ventil ve vedení T pro tahaèe jader jádra 1 resp. 1-4 soubìžnì
+2RV42 Dvojitý zpìtný ventil AWH
+2RV43 Zpìtný ventil tahaèe jader 1. okruhu / ZE
+2RV44 Zpìtný ventil tahaèe jader 2. okruhu / ZE
+2RV48 Zpìtný ventil tahaèe jader 3. okruhu / ZE
+2RV49 Zpìtný ventil tahaèe jader 4. okruhu / ZE
+2RV58 Uzamknutí zpìtného ventilu
+2RV60 Zpìtný ventil 2SH5 - T
+2RV76.1 Zpìtný ventil 2SH1 - T1
+2RV96 Zpìtný ventil uvolnìní tahaèe jader
+2RV97 Zpìtný ventil uvolnìní tahaèe jader
+2RV98 Zpìtný ventil uvolnìní tahaèe jader
+2RV99 Zpìtný ventil uvolnìní tahaèe jader
+2RV100 Zpìtný ventil uvolnìní tahaèe jader
+2RV101 Zpìtný ventil uvolnìní tahaèe jader
+2RV102 Zpìtný ventil uvolnìní tahaèe jader
+2RV103 Zpìtný ventil uvolnìní tahaèe jader
+2RV129 Zpìtný ventil v T-kusu potrubí pro stálé vyrovnání oleje
+3RV3 Zpìtný ventil v P-EE
+3RV8 Zpìtný ventil zbytkového pøítlaku trysky
+3RV11 Zpìtný ventil v T-EE
+3RV12 Zpìtný ventil obtoku 3RV8
+3SH1 Øídicí ventil pøejezdu trysky
+3SH3 Elektricky blokovatelný zpìtný ventil
+3ZY1.1 Pøesouvací válec
+3ZY1.2 Pøesouvací válec
+4AS3 Uzavírací ventil manometru zásobníku / ZE
+4AS4 Pøetlakový ventil zásobníku / ZE
+4DB1 Tlakový omezovací ventil tlaku v zásobníku / ZE
+4DE11 Proporcionální tlakový omezovací ventil zpìtného tlaku - programovatelný / VV
+4MA1 Manometr zásobníku / ZE
+4MA3 Manometr zpìtného tlaku
+4MA7 Manometr tlaku trysek horkých vtokù / ZE
+4MF1 Hydromotor pohonu šneku
+4MR1 Ventil regulátoru množství pro zpìtný tlak
+4RV2 Zpìtný ventil v pøisávacím vedení pro plastifikaci
+4RV12 Zpìtný ventil uzavírání proudìní pøed èerpadlem
+4RV32.1(.3) Zpìtný ventil pro vstøikovací blok T
+4RV70 Blokovatelný zpìtný ventil - øízení trysek horkých vtokù / WA
+4RV80 Zpìtný ventil dávkovacího motoru
+4SH1 Øídicí ventil vstøikování a odskoku šneku
+4SH4 Øídicí ventil dávkování
+4SH8 Øídicí ventil vyprázdnìní zásobníku / ZE
+4SH9 Wegeventil-Speicher laden / ZE
+4SH10 Øídicí ventil vstøikování / pøipojení zásobníku
+4SH18 P/Q Regulaèní ventil vstøikovací jednotky-ZE vstøikování, odskok šneku/zpìtný tlak
+4SH40 Øídicí ventil nálitku horkého vtoku
+4SH60 Øídicí ventil pøipojení chladicí vody pro plnicí zónu
+4SP1 Zásobník pro rychlé vstøikování / ZE
+4SV3 Sedlový ventil zpìtného tlaku
+4SV8 Sedlový ventil Doplòkové množství pro vstøikování
+4SV10 Sedlový ventil zásobníku / ZE
+4WV9 Pøepínací ventil pro plnìní zásobníku
+4ZY1.1 Vstøikovací válec
+4ZY1.2 Vstøikovací válec
+4ZY5 Válec pro hydraulický uzávìr trysky

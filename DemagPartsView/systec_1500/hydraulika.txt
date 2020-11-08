@@ -1,0 +1,162 @@
+1DB1(.1) Ventil obmedzujúci tlak pre vysokı tlak
+1DB2 Obmedzovaè tlaku pre vysokotlakové èerpadlo 1PV2
+1FT1 Olejovı nasávací filter
+1FT2 Olejovı nasávací filter
+1FT6.1 Plniaci / odvzdušòovací filter
+1FT6.2 Plniaci / odvzdušòovací filter
+1FT5 Ve¾mi jemnı olejovı filter
+1FT5.2 Jemnı olejovı filter
+1FV4 Predpínací ventil pre èerpadlo 1PV1
+1FV4.1 Predpínací ventil pre èerpadlo 1PV1.1
+1FV4.2 Predpínací ventil pre èerpadlo 1PV1.2
+1FV4.3 Predpínací ventil pre èerpadlo 1PV1.3
+1FV5 Predpínací ventil pre èerpadlo 1PV2
+1MA1 Hlavnı manometer
+1PF2 Konštantné èerpadlo (Systec od 55 KW)
+1PF2.1 Konštantné èerpadlo (Systec 110 KW)
+1PF2.2 Konštantné èerpadlo (Systec 110 KW)
+1PF2.3 Konštantné èerpadlo (Systec 165 KW)
+1PF7 Nízkotlakové èerpadlo
+1PF7.1 Cirkulaèné èerpadlo
+1PF7.2 Cirkulaèné èerpadlo
+1PV1 Regulaèné èerpadlo 1
+1PV1.1 Regulaèné èerpadlo 1
+1PV1.2 Regulaèné èerpadlo 2
+1PV1.3 Regulaèné èerpadlo 3
+1PV2 Regulaèné èerpadlo 2
+1RV6 Spätnı ventil vypúšania tlaku z regulaèného èerpadla / ZE
+1RV6.1 Spätnı ventil zníenie tlaku 1PV1
+1RV6.2 Spätnı ventil zníenie tlaku 1PV2
+1RV11 Spätnı ventil v potrubí k nádri tlaku
+1RV27 Dosadzovací ventil pre regulaèné èerpadlo / ZE
+1SH1 Regulaènı ventil 1PV2
+1SH7 Regulaènı ventil 1PV1
+1SH7.1 Rozvodnı ventil pre mnostvo hlavného èerpadla 1PV1.1
+1SH7.2 Rozvodnı ventil pre mnostvo hlavného èerpadla 1PV1.2
+1SH7.3 Rozvodnı ventil pre objem hlavného èerpadla 1PV1.3
+1SH11 Rozvodnı ventil pre paralelnú prevádzku
+1SH20.2 Rozvodnı ventil pre prídavné zvyšovanie tlaku cez 2. regulaèné èerpadlo
+1SH20.3 Rozvodnı ventil pre prídavné zvyšovanie tlaku cez 3. regulaèné èerpadlo
+1SH23(.1-.2) Rozvodnı ventil (Bezpeènostnı obvod Forma otv) ochrany formy / ZE
+1SH24 Rozvodnı ventil pre chladiacu vodu chladièa oleja
+1WT1 Chladiè hydraulického oleja
+2AS14 Uzatvárací ventil zníenie tlaku ahaèa jadier
+2DB1 Ventil obmedzujúci tlak pre zabezpeèenie ståpov
+2DB22 Ventil obmedzujúci tlak pre ochrannı tlak WZ (proporcionálny -2A86)
+2DB42 Ventil obmedzujúci tlak pre SE valec Uzávernı obvod / ZE
+2DE15 Nastavenie tlaku proporcionálne pre jadrá (len ak je proporcionálne = ZE)
+2DM20 Redukènı ventil tlaku chladenia nástroja
+2DM41 Tlakovı redukènı ventil pre automatické ahanie tyèí - ahanie tyèí
+2DM42 Tlakovı redukènı ventil pre automatické ahanie tyèí - upínanie pevnej upínacej dosky nástroja
+2DM43 Tlakovı redukènı ventil pre automatické ahanie tyèí - Upínanie koncovej dosky
+2DM144 Tlakovı redukènı ventil pre automatické ahanie tyèí - upínanie pevnej upínacej dosky nástroja
+2KV16 Redukènı ventil tlaku pre jadrá (len keï je proporc. = ZE)
+2MA13 Manometer pre jadrá (len keï je proporc. = ZE)
+2MF117 Motor pre automatické ahanie tyèí - upínanie pevnej upínacej dosky nástroja
+2RV2 Spätnı ventil pre Rozvodnı ventil 2SH4
+2RV4 Spätnı ventil pre predbené riadenie zatváracieho tlaku
+2RV5 Spätnı ventil s elektr. monitorovaním pre hydraulickú ochranu formy
+2RV12 Spätnı ventil pre zníenie tlaku
+2RV16 Spätnı ventil pre tlakové potrubie hydr. vyhadzovaèa
+2RV19 Spätnı ventil v potrubí k nádri pre ahaè jadier
+2RV42 Spätnı ventil pre vyhadzovaè (WA 218)
+2RV43 Odblokovate¾nı spätnı ventil pre ahaè jadier 1
+2RV44 Odblokovate¾nı spätnı ventil pre ahaè jadier 2
+2RV48 Odblokovate¾nı spätnı ventil pre ahaè jadier 3
+2RV49 Odblokovate¾nı spätnı ventil pre ahaè jadier 4
+2RV60 Spätnı ventil v potrubí nádre hydr. vyhadzovaèa
+2RV76 Spätnı ventil v potrubí nádre zatváracia jednotka
+2RV81 Dvojitı spätnı ventil pre ahaèe jadier 5
+2RV82 Dvojitı spätnı ventil pre ahaèe jadier 6
+2RV92 Spätnı ventil pre diferenciálne zapojenie
+2RV96/97 Spätnı ventil pre zníenie tlaku ahaèa jadier 1
+2RV98/99 Spätnı ventil pre zníenie tlaku ahaèa jadier 2
+2RV100/101 Spätnı ventil pre zníenie tlaku ahaèa jadier 3
+2RV102/103 Spätnı ventil pre zníenie tlaku ahaèa jadier 4
+2RV116 Spätnı ventil pre zníenie tlaku ahaèa jadier
+2MF117 Spätnı ventil pre automatické ahanie tyèí - upínanie pevnej upínacej dosky nástroja
+2RV118 Spätnı ventil pre automatické ahanie tyèí - upínanie pevnej upínacej dosky nástroja
+2RV119 Spätnı ventil pre automatické ahanie tyèí - upínanie koncovej dosky
+2SH1 Rozvodnı ventil prop. pre zatváranie a otváranie nástroja
+2SH3 Rozvodnı ventil pre diferenciálne zapojenie
+2SH4 Rozvodnı ventil pre zabezpeèenie zatváracieho zdvihu
+2SH5 Rozvodnı ventil pre hydr. vyhadzovaè
+2SH13 Rozvodnı ventil pre ahaè jadier 1 (proporcionálne = ZE)
+2SH15 Rozvodnı ventil pre ahaè jadier 2 (proporcionálne = ZE)
+2SH17 Rozvodnı ventil pre ahaè jadier 3 (proporcionálne = ZE)
+2SH19 Rozvodnı ventil pre ahaè jadier 4 (proporcionálne = ZE)
+2SH40 Rozvodnı ventil pre horúci kanál
+2SH108 Rozvodnı ventil pre ahaèe jadier (pohyblivá upínacia doska nástroja) jadro 5
+2SH109 Rozvodnı ventil pre ahaèe jadier (pohyblivá upínacia doska nástroja) jadro 6
+2SH116 Rozvodnı ventil pre automatické ahanie tyèí - upínanie pevnej upínacej dosky nástroja
+2SH117 Rozvodnı ventil pre automatické ahanie tyèí - otáèanie matice vodiacich tyèí pevnej upínacej dosky nástroja, (od Systec 1000/1400)
+2SH119 Rozvodnı ventil pre automatické ahanie tyèí - ahanie tyèí
+2SH121 Rozvodnı ventil pre automatické ahanie tyèí - upínanie koncovej dosky
+2SH140 Rozvodnı ventil na odvzdušòovanie SE valca / ZE
+2SV3 Sedlovı ventil potrubia k nádri otváranie nástroja
+2SV4 Sedlovı ventil na rozpojenie diferenciálneho zapojenia
+2SV48 Sedlovı ventil úzaverného obvodu pre nízkotlakové vstrekovanie do 2SH140 / ZE
+2ZY1 (.1-2) Zatvárací valec
+2ZY6 Valec vyhadzovaèa
+2ZY19 Valec pre automatické ahanie tyèí - ahanie tyèí
+2ZY20 Valec pre automatické ahanie tyèí - upínanie pevnej upínacej dosky nástroja
+2ZY21 Valec pre automatické ahanie tyèí - upínanie koncovej platne
+3RV3 Spätnı ventil v tlakovom potrubí presúvacieho valca
+3RV8 Spätnı ventil pre dızové zariadenie zvyškovı tlak
+3RV11 Spätnı ventil v T-potrubí presúvacieho valca
+3RV12 Spätnı ventil v prívode presúvacieho valca
+3SH1 Rozvodnı ventil pre dızu smerom dopredu a spä
+3SH3 Rozvodnı ventil pre tlak dızového zariadenia
+3ZY1.1 Presúvací valec
+3ZY1.2 Presúvací valec
+4AS3 Uzavierací ventil pre zobrazenie tlaku tlak v akumulátore (len s akumulátorom = ZE)
+4AS4 Uzavierací ventil pre akumulátor manuálne vyprázdni (len s akumulátorom = ZE)
+4DB1 Bezpeènostnı ventil akumulátora (len s akumulátorom = ZE)
+4DB9 Tlakovı obmedzovací ventil pre horúci kanál
+4DE11 Ventil na nastavovanie tlaku pre náporovı tlak závitovky
+4DM5 Redukènı ventil tlaku pre hydr. uzáver dız
+4DM8 Redukènı ventil tlaku pre riadenie vtoku do horúceho kanála
+4MA1 Manometer pre tlak akumulátora (len s akumulátorom = ZE)
+4MA3 Manometer pre náporovı tlak
+4MA5 Manometer pre hydr. uzáver dız
+4MA6 Manometer pre tlak vstrekovania, dodatoènı tlak, náporovı tlak závitovky
+4MA7 Manometer pre riadenie vtoku do horúceho kanála
+4MF1 Hydromotor pre pohon dávkovaèa
+4MR1 Regulátor mnostva pre ventil náporového tlaku
+4RV2 Spätnı ventil pre dodatoèné nasávanie poèas dávkovania
+4RV10 Spätnı ventil v ovládacom vedení vstrekovania (len s akumulátorom = ZE)
+4RV11 Spätnı ventil v ovládacom vedení vstrekovania (len s akumulátorom = ZE)
+4RV12 Spätnı ventil v tlakovom potrubí vstrekovania (len s akumulátorom = ZE)
+4RV16 Spätnı ventil v tlakovom potrubí pre hydr. uzáver dız
+4RV32(.1-.2) Spätnı ventil v T-rozvode pre vstrekovanie
+4RV70 Spätnı ventil v tlakovom potrubí pre riadenie vtoku do horúceho kanála
+4RV71 Spätnı ventil v T-rozvode pre vstrekovanie
+4RV32.1 Spätnı ventil v potrubí k nádri pre rozvodnı ventil 4SH1
+4RV32.2 Spätnı ventil v potrubí k nádri pre rozvodnı ventil 4SH1
+4RV32.3 Spätnı ventil v potrubí k nádri pre rozvodnı ventil 4SH1 / ZE
+4RV81 Spätnı ventil v T-potrubí vstrekovacieho valca
+4RV80 Spätnı ventil v P-potrubí dávkovania
+4SH1 Rozvodnı ventil vstrekovania / spätného ahu hydr. závitovky (len proporcionálne = ZE)
+4SH4 Rozvodnı ventil pre dávkovanie
+4SH5 Rozvodnı ventil pre hydr. uzáver dız
+4SH8 Rozvodnı ventil pre autom. vyprázdnenie akumulátora (len s akumulátorom = ZE)
+4SH9 Rozvodnı ventil pre akumulátor naèíta
+4SH10 Rozvodnı ventil pre vstrekovanie s akumulátorom (len s akumulátorom = ZE)
+4SH40 Rozvodnı ventil pre riadenie vtoku do horúceho kanála 
+4SP1 Akumulátor tlaku pre rıchle vstrekovanie (len s akumulátorom = ZE)
+4SP1.1 Akumulátor tlaku pre rıchle vstrekovanie EE 80, EE 1450 (len s akumulátorom = ZE)
+4SP1.2 Akumulátor tlaku pre rıchle vstrekovanie EE 2300, EE 3300 (len s akumulátorom = ZE)
+4SP1.3 Tlaková nádoba pre rıchle vstrekovanie EE 6400 (len s nádobou = ZE)
+4SP1.4 Akumulátor tlaku pre rıchle vstrekovanie EE 9500 (len s akumulátorom = ZE)
+4SP1.5 Tlaková nádoba pre rıchle vstrekovanie EE 9500 (len s nádobou = ZE)
+4SP1.6 Akumulátor tlaku pre rıchle vstrekovanie EE 11500, EE 16000 (len s akumulátorom = ZE)
+4SV3 Sedlovı ventil-náporovı tlak
+4SV4 Sedlovı ventil pre dávkovanie
+4SV8 Sedlovı ventil prídavné mnostvo pre vstrekovanie
+4SV10(.1-.2 Sedlovı ventil pre vstrekovanie s nádobou (len s nádobou = ZE)
+4WV9 Striedavı ventil pred predbené riadenie 4SV10
+4WV10 Striedavı ventil pre -4B3
+4ZY1(.1-.2) Vstrekovací valec
+4ZY3.1 Spätnı valec
+4ZY3.2 Spätnı valec
+4ZY5 Valec pre hydr. uzáver dız

@@ -1,0 +1,548 @@
+-1A12 Prùchozí konektor s pøepínaèem
+-1A13 Prùchozí konektor BUS pøizpùsobení / ZE
+-1A14.CPU CPU-Modul / C-DIAS øízení
+-1A14.CPU-X1 CPU-Modul / C-DIAS-øízení
+-1A14 Základní deska/C-DIAS - øízení
+-1A14.00 Pøídavnı modul / C-DIAS øízení
+-1A14.01 Pøídavnı modul / C-DIAS øízení
+-1A14.02 Pøídavnı modul / C-DIAS øízení
+-1A14.03 Pøídavnı modul / C-DIAS øízení
+-1A14.04 Pøídavnı modul / C-DIAS øízení
+-1A14.05a Základní modul / C-DIAS øízení
+-1A14.05b Základní modul / C-DIAS øízení
+-1A14.05c Základní modul / C-DIAS- øízení
+-1A14.06 Pøídavnı modul / C-DIAS- øízení
+-1A14.07 Pøídavnı modul / C-DIAS- øízení
+-1A14.65 EN201-modul / C-DIAS- øízení
+-1A15 Rozvádìè Can-bus (-1A14)
+-1A17 Síovı pøepínaè
+-1A17-X1 Síovı pøepínaè SPS úrovnì stroje
+-1A17-PWR Síovı pøepínaè SPS úrovnì stroje
+-1A20 Zásuvky Kombi
+-1A20-X1 Zásuvky Kombi
+-1A20-1X15 Zásuvky Kombi
+-1A20-1X16 Zásuvky Kombi
+-1A20-1X17 Zásuvky Kombii
+-1A20-1X18 Zásuvky Kombi
+-1A21 Univerzální rozhraní / ZE
+-1A21-K1 Relé programovatelného vıstupu 1
+-1A21-K2 Relé programovatelného vıstupu 2
+-1A21-K3 Relé programovatelného vıstupu 3
+-1A21-X100 Svorky programovatelnıch vstupù 1-3
+-1A22 Univerzální rozhraní / ZE
+-1A22-K4 Relé programovatelného vıstupu 4
+-1A22-K5 Relé programovatelného vıstupu 5
+-1A22-K6 Relé programovatelného vıstupu 6
+-1A22-X100 Svorky programovatelnıch vstupù 4-6
+-1A40 Rozšíøené rozhraní pro -1A14CPU
+-1A46 Modul evidence energie (Sigmatek)
+-1A50 Displej ovládacího terminálu
+-1A51 Klávesnice ovládacího terminálu
+-1A51-1S42 Tlaèítko Nouzového zastavení obslunı terminál
+-1A70.1 Èerpadlo 1PV1
+-1A70.2 Èerpadlo 1PV2
+-1A71.46 Pøídavnı modul / C-DIAS-øízení
+-1A71.47 Pøídavnı modul / C-DIAS-øízení
+-1A71.48 Pøídavnı modul / C-DIAS-øízení
+-1A71.49 Pøídavnı modul / C-DIAS-øízení
+-1A71.52 1. Rozšiøující stojan z 1A14
+-1A71.53 Pøídavnı modul / C-DIAS-øízení
+-1A71.CIC Napojovací modul / C-DIAS-øízení
+-1A81.CRIF Napojovací modul horké kanály / C-DIAS-øízení / ZE
+-1A81.18 Pøídavnı modul horké kanály / C-DIAS-øízení / ZE
+-1A81.19 Pøídavnı modul horké kanály
+-1A85 Mìniè hlavního èerpadla
+-1B1 Sledování teploty hydraulického oleje
+-1B2 Spínaè zneèištìní olejového filtru
+-1B3 Hladinovı spínaè - kontrola hladiny oleje
+-1B6.1 Èidlo hydraulického tlaku 1PV1
+-1B6.2 Èidlo hydraulického tlaku 1PV2
+-1B6.3 Senzor tlaku hydrauliky 1PF2
+-1C85.1(-.6) Filtr øídicího napìtí mìnièe servopohonu
+-1E2 Ventilátor silového rozvádìèe
+-1E22.1(-.3) Ventilátor pro 1M1 (servopohon)
+-1F9.1 Jistiè øídicího obvodu 24 V DC
+-1F9.2 Jistiè øídicího obvodu 24 V DC
+-1F9.3 Jistiè øídicího obvodu 24 V DC
+-1F9.4 Jistiè øídicího obvodu 24 V DC
+-1F9.5 Jistiè øídicího obvodu 24 V DC
+-1F9.6 Jistiè øídicího obvodu 24 V DC
+-1F12 Zásuvkovı jistiè
+-1F13 Jistiè øídicího obvodu 24 V AC
+-1F15 Jistiè zásuvkové kombinace / ZE
+-1F16 Jistiè zásuvkové kombinace / ZE
+-1F17 Jistiè zásuvkové kombinace / ZE
+-1F18 Jistiè zásuvkové kombinace / ZE
+-1F31 Pojistka pro -1X31 dávkovací zaøízení / ZE
+-1F32 Pojistka pro -1X32 / ZE
+-1F34 Pojistka pro -1X34 / ZE
+-1F51 Mezijištìní 1 øídicí okruh
+-1F52 Mezijištìní 2 øídicí okruh
+-1F85 Jištìní pro øídicí jednotku servopohonu
+-1F144 Pøedøadná pojistka pro kyvnı jeøáb
+-1G1 Kompaktní síovı zdroj
+-1H10 Signální svìtlo pro polohu „0“ u -1S10
+-1H31 Signální svìtlo - øídicí napìtí zapnuto/vypnuto
+-1H35 Indikace poruch - optická, všeobecná (bleskové svìtlo, blikání, èervená)
+-1H36 Indikace poruch - optická, všeobecná (bleskové svìtlo, blikání, lutá)
+-1H37 Indikace poruch - optická, všeobecná (bleskové svìtlo, blikání, zelená)
+-1H40 Signální svìtlo - øídicí napìtí zapnuto/vypnuto
+-1H46 Indikace poruch - akustická (houkaèka)
+-1K1 Síovı stykaè hnacího motoru èerpadla
+-1K1.Var Stykaè pro èerpadla-motorová sí
+-1K8 Relé pro zásuvkovou kombinaci
+-1K9 Stykaè pro zásuvkovou kombinaci
+-1K9.1 2. Stykaè pro zásuvkovou kombinaci
+-1K10 Relé pro uvolnìní èerpadla
+-1K11 Relé indikace poruch
+-1K12 Relé vypnutí houkaèky
+-1K13.0 Relé pro vypnutí zaøízení Master-Slave
+-1K13.1 Relé pro zapnutí zaøízení Master-Slave
+-1K16 Bezpeènostní relé 1. Pohon
+-1K17 Bezpeènostní relé 2. Pohon
+-1K35 Relé „Cyklus probíhá“ / ZE
+-1K36 Relé „Poloautomatickı provoz“ / ZE
+-1K37 Relé „Automatickı provoz“ / ZE
+-1K40 Stykaè pro øídicí napìtí zapnout/vypnout
+-1K41.4 Relé pro nouzové zastavení
+-1K49 Relé nouzového zastavení vstøikovacího lisu
+-1K86.1(.2) Pomocné relé øízení mìnièe èerpadla
+-1K87.1(-.4) Pomocné relé vıstupù mìnièe èerpadla
+-1K88 Spouštìní ventilátoru motoru servopohonu
+-1K89 Bezpeènostní relé servopohonu
+-1L85 Škrticí klapka k -1A85 (DFEn)
+-1M1 Motor pohonu èerpadla
+-1M4 Motor elektrického zdvihacího zaøízení / ZE
+-1Q0 Hlavní spínaè
+-1Q1 Odpínaè pro motor èerpadla / vıkonovı spínaè
+-1Q3 Ochrannı spínaè motoru pro zdvihací zaøízení
+-1Q4 Kombinovanı spínaè trojúhelník/hvìzda pro motor èerpadla
+-1Q4-RK1 Kombinovanı spínaè trojúhelník/hvìzda pro motor èerpadla RC èlen ke K1
+-1Q4-RK2 Kombinovanı spínaè trojúhelník/hvìzda pro motor èerpadla RC èlen ke K2
+-1Q4-RK3 Kombinovanı spínaè trojúhelník/hvìzda pro motor èerpadla RC èlen ke K3 
+-1Q4-K1 Síovı stykaè
+-1Q4-K2 Stykaè s hvìzdicovou topologií
+-1Q4-K3 Stykaè s trojúhelníkovou topologií
+-1Q4-K4 Èasové relé
+-1Q8 Ochrannı spínaè motoru pro øídicí skøíò
+-1Q17 Vıkonovı spínaè pro zásuvky Hubbell
+-1Q32 Pojistka pro -1X32 / ZE
+-1Q34 Pojistka pro -1X34 / ZE
+-1Q39 Podrunı rozvod NH / Vıkonovı spínaè pro zásuvky
+-1R85.1(-.3) Brzdovı odpor k -1A85
+-1S10 Bezpeènostní spínaè „SUVA“ (pro údrbu)
+-1S40.1(.2) Spínaè øídicího napìtí zapnout/vypnout
+-1S42 Tlaèítko nouzového vypnutí na kontrolním panelu
+-1S42.1 Tlaèítko nouzového vypnutí na protilehlé stranì obsluhy
+-1S42.2 Tlaèítko nouzového vypnutí vnitøní oblast nástroje na stranì obsluhy
+-1T3 Transformátor 24 V AC pro øízení
+-1T8 Proudovı mìniè ECON 2000
+-1T8.1(-.3) Proudovı mìniè pro ECON 90 (-1M1)
+-1U10 Pøevadìè rozhraní RS232 ovládacího terminálu
+-1VK40 Varistor k -1K40
+-1X0 Svorkovnice pro N1 (motory)
+-1X12 Konektor tiskárny - externí
+-1X14.1(.2) Zásuvka pro diagnostickı konektor
+-1X15 Zásuvka pro zásuvkovou kombinaci
+-1X15.1 Konektor CAN-BUS
+-1X15.2 Konektor CAN-BUS
+-1X16 Zásuvka v zásuvkové kombinaci
+-1X17 Zásuvka v zásuvkové kombinaci
+-1X18 Zásuvka v zásuvkové kombinaci
+-1X31 Konektoru - dávkovací zaøízení / ZE
+-1X32 Konektor v provedení CEE / ZE
+-1X34 Konektor v provedení CEE / ZE
+-1X39 Konektor CAN pro temperovací pøístroj / ZE
+-1X43 Konektor zdvihacího zaøízení
+-1X70.1 Zástrèkovı konektor na -1A70.1
+-1X70.2 Zástrèkovı konektor na -1A70.2
+-1X111 Zásuvka pro osvìtlení vnitøního prostoru formy / ZE
+-1X112 Zásuvka 230V
+-1X114 Konektor pro Dias-Bus (-1A14)
+-1Y11 Magnet rozdìlení èerpadla
+-1Y23 Pøedehøev oleje
+-1Y24 Øídicí elektromagnet pro chlazení oleje
+-1Y99 Integrovaná tiskárna na ovládacím panelu
+-1Y99-X1 Svorková pozice na tiskárnì
+-1Y99-X2 Svorková pozice na tiskárnì
+-1Z85 Filtr k -1A85 (DFEn)
+-1Z85.1 Filtr k -1A85 (DFEn)
+-2A8 Manipulaèní zaøízení (manipulace)
+-2A8-2S918 Manipulace
+-2A8-2S919 Manipulace
+-2A8-2X1.12 Manipulace
+-2A8-W Manipulace
+-2A11 Øídicí ventil hydraulického vyhazovaèe
+-2A12 Øídicí ventil otevøení a zavøení formy
+-2A15 Temperovací pøístroj / ZE
+-2A62 Regulaèní ventil tlaku pro jádra
+-2A72 Mìniè pohonu dveøí
+-2A72-X2 Svorkovnice na mìnièi / ZE
+-2A73 Skøíò adaptéru Euromap 67 pro Euromap 12
+-2A113 Regulaèní ventil tlaku pro jádro 1
+-2A115 Regulaèní ventil tlaku pro jádro 2
+-2A117 Regulaèní ventil tlaku pro jádro 3
+-2A119 Regulaèní ventil tlaku pro jádro 4
+-2B3 Snímaè tlaku uzavírací jednotky (regulace uzavírací síly)
+-2B14 Koncovı spínaè - vyhazovaè vpøedu - stop
+-2B15 Koncovı spínaè - vyhazovaè vzadu - stop
+-2B18.1 Snímaè hydraulického tlaku - Zdvih vyhazovaèe vpøed
+-2B18.2 Snímaè hydraulického tlaku - Zdvih vyhazovaèe vzad
+-2B39 Iniciátor pro otevøení ochrannıch dveøí na stranì obsluhy
+-2B51.1 Èidlo tlaku pro Formu uzavøít
+-2B51.2 Èidlo tlaku pro Formu otevøít
+-2B66 Bezpeènostní lišta na ochrannıch dveøích automatická
+-2B67 Koncovı spínaè tlumení uzavírání pneumatickıch ochrannıch dveøí / ZE
+-2B68 Koncovı spínaè tlumení otevírání pneumatickıch ochrannıch dveøí / ZE
+-2B81 Snímaè polohy multiplikátoru
+-2B81-X1 Snímaè polohy multiplikátoru
+-2B87 Ochrana formy (deska vyhazovaèe v klidové poloze)
+-2B89 Koncovı spínaè ochrany postranních jader
+-2F72 Pojistka pro elektrické ochranné dveøe
+-2H43 Svìtelná signalizace potvrzení (v -2S43) ochranné dveøe na protilehlé stranì obsluhy
+-2K14 Relé instalaèního prostoru formy -2S1
+-2K15 Relé instalaèního prostoru formy -2S2
+-2K17 Relé pro jištìní prostoru formy
+-2K32 Relé pro uvolnìní kontroly vypadávání vıliskù
+-2K34 Stykaè motoru pro chod vlevo QS-klapka
+-2K35 Stykaè motoru pro chod vlevo QS-klapka
+-2K40 Relé - provoz bez externího ochranného zakrytování / ZE
+-2K43 Relé - externí zakrytování manipulátoru uzavøené
+-2K66 Bezpeènostní relé pneumatickıch ochrannıch dveøí / ZE
+-2K72 Stykaè pohonu dveøí
+-2K73 Relé pohonu dveøí
+-2K74 Relé pohonu dveøí volnobìh
+-2K74.1 Relé pohonu dveøí volnobìh
+-2K81 Relé pro uvolnìní Zavøít formu / ZE
+-2K82 Relé pro uvolnìní AW vpøed / ZE
+-2K83 Relé pro uvolnìní Forma je otevøená / ZE
+-2K84 Relé najetí HG / ZE
+-2K85 Relé pro uvolnìní Zavøít formu / ZE
+-2K86 Relé cyklus bìí ZE529
+-2K93 Relé pro uvolnìní Magnetizování / ZE
+-2K94 Relé ochrannıch dveøí SE jsou zavøené (v seøízení k
+-2K93 pro ZE; stejné s 2K19)
+-2K95 Magnetickı upínací systém je ok / ZE
+-2K96 Vımìna formy / ZE
+-2K902 Relé pro start najídìní manipulátoru dovnitø
+-2K904 Relé pro stav Hydraulickı vyhazovaè je vzadu
+-2K905 Relé pro stav Hydraulickı vyhazovaè je vpøedu
+-2K906 Relé pro stav Jádra jsou venku
+-2K907 Relé pro stav Jádra jsou uvnitø
+-2K910 Relé pro automatickı provoz
+-2K911 Relé pro mezilehlou pozici formy
+-2K912 Relé pro stav Forma zamknuta
+-2K915 Relé pro SPI
+-2K919 Relé nouzového zastavení manipulace
+-2L72 Síová tlumivka pohonu dveøí
+-2M72 Motor pohonu dveøí
+-2P3 Váha kontroly vıpadu vılisku, pøíp. fotobuòka
+-2Q2 Jistiè temperovacího pøístroje
+-2Q93 Vıkonové spínaèe pro magnetickı rychlı upínací systém
+-2R2 Snímaè polohy uzavírací jednotky
+-2R3 Snímaè polohy multiplikátoru
+-2R23 Snímaè polohy vyhazovaèe
+-2R34.1 Brzdovı odpor 1 QS-klapka
+-2R34.2 Brzdovı odpor 2 QS-klapka
+-2RY5 Varistor k 2Y5
+-2RY6 Varistor k 2Y6
+-2RY13 Varistor k 2Y13
+-2RY14 Varistor k 2Y14
+-2RY15 Varistor k 2Y15
+-2RY16 Varistor k 2Y16
+-2RY17 Varistor k 2Y17
+-2RY18 Varistor k 2Y18
+-2RY19 Varistor k 2Y19
+-2RY20 Varistor k 2Y20
+-2RY32 Varistor k -2Y32
+-2RY160 Varistor k -2Y160
+-2S1 Koncovı spínaè ochrannıch dveøí - strana obsluhy
+-2S1.1 Koncovı spínaè ochrany proti zásahu ze zadní strany / ZE
+-2S1.2 Koncovı spínaè ochrannıch dveøí na protilehlé stranì obsluhy
+-2S1.3 Koncovı spínaè manipulátoru
+-2S2 Koncovı spínaè ochrannıch dveøí - strana obsluhy
+-2S2.1 Koncovı spínaè ochrany proti zásahu ze zadní strany / ZE
+-2S2.2 Koncovı spínaè ochrannıch dveøí na protilehlé stranì obsluhy
+-2S2.3 Koncovı spínaè manipulátoru
+-2S3 Spínaè pro hydraulickı bezpeènostní ventil - uzavírání
+-2S4 Klíèovı spínaè vyhazovaèe/jader pøi otevøenıch ochrannıch dveøích
+-2S6 Koncovı spínaè ochranné dveøe zcela otevøeny
+-2S10 Koncovı spínaè Rameno nahoøe - odnímaè vtokù / ZE
+-2S11 Koncovı spínaè Rameno dole - odnímaè vtokù / ZE
+-2S12 Koncovı spínaè Odformovací zdvih dokonèen - odnímaè vtokù / ZE
+-2S13 Koncovı spínaè Vtok uchopen - odnímaè vtokù / ZE
+-2S22 Koncovı spínaè - jádro 1 venku
+-2S23 Koncovı spínaè - jádro 1 uvnitø
+-2S24 Koncovı spínaè - jádro 2 venku
+-2S25 Koncovı spínaè - jádro 2 uvnitø
+-2S26 Koncovı spínaè - jádro 3 venku
+-2S27 Koncovı spínaè - jádro 3 uvnitø
+-2S28 Koncovı spínaè - jádro 4 venku
+-2S29 Koncovı spínaè - jádro 4 uvnitø
+-2S43 Tlaèítko (potvrzovací) Ochranné dveøe na protilehlé stranì obsluhy uzavøeny
+-2S70 Koncovı spínaè - jádro 5 vyjeto ven
+-2S71 Koncovı spínaè - jádro 5 zajeto dovnitø
+-2S72 Koncovı spínaè - jádro 6 vyjeto ven
+-2S73 Koncovı spínaè - jádro 6 zajeto dovnitø
+-2S101 Koncovı spínaè - monitorování na 2RV5
+-2S102 Koncovı spínaè - kontrola 2SH4
+-2S114 Koncovı spínaè - kontrola závory
+-2S140 Potvrzovací tlaèítko pro vyhazovaè / jádra k -2S4
+-2V72 Dioda pro -2K72
+-2V73 Dioda pro -2K73
+-2V80 Dioda (Asia-manipulace uivatelského rozhraní) / ZE
+-2X1 Konektor manipulace/uivatelského rozhraní
+-2X1.1 Konektor manipulace/uivatelského rozhraní (Švıcarsko)
+-2X1.12 Konektor ze strany manipulátoru Adaptér Euromap 67 na 12
+-2X6 Konektor rozhraní 1-6 TG
+-2X8 Konektor -2Y1/2 (4WRKE)
+-2X9 Konektor k 2A11
+-2X12 Konektor jádra 1-2 (-2S22 … -2S25)
+-2X13 Konektor jádra 3-4 (-2S26 … -2S29)
+-2X15 Konektor temperovacího pøístroje
+-2X18.1 Konektor k -2B18.1
+-2X18.2 Konektor k -2B18.2
+-2X20 Konektor temperovacího pøístroje / ZE
+-2X26 Rozhraní ochrany postranních jader
+-2X30 Konektor jádra 5+6 (Euromap 13) (-2S70 … -2S73)
+-2X44 Konektor externího ochranného opláštìní / ZE
+-2X44B Zaslepovací zástrèka externího ochranného opláštìní / ZE
+-2X51 Konektor koncového spínaèe hydraulického vyhazovaèe (-2B14, -2B15)
+-2X67 Konektor vıpadu vılisku (-2P3)
+-2X68 Konektor odnímaèe vtokù
+-2X72 Svorkovnice elektrickıch ochrannıch dveøí / ZE
+-2X80 Svorkovnice rozhraní manipulátoru / ZE
+-2X88 Konektor ochrany formy
+-2X90 Rozhraní magnetického upínacího systému / ZE
+-2X91 Zaslepovací zástrèka pro 2X90
+-2X93 Svorkovnice vıkonu magnetického rychlého upínacího systému
+-2X101 Zaslepovací zástrèka manipulace (-2X1) / ZE
+-2X101.1 Zaslepovací zástrèka manipulace (-2X1.1) / ZE
+-2X103 Zaslepovací zástrèka ochrany formy (-2X88) / ZE
+-2X105 Zaslepovací zástrèka pro vyhazovaè koncové desky ve formì (-2B15) / ZE
+-2X120.1 Zaslepovací zástrèka pro jádra (-2X12) Euromap 13
+-2X120.2 Zaslepovací zástrèka pro jádra (-2X13) Euromap 13
+-2X120.3 Zaslepovací zástrèka pro jádra (-2X30) Euromap 13
+-2X126 Zaslepovací zástrèka pro zajištìní boèního zasouvání (-2X26) / ZE
+-2XB3 Konektor pro -2B3
+-2XB51.2 Konektor pro -2B51.2
+-2XR2 Snímaè polohy uzavírací jednotky, konektor pro -2R2
+-2XR3 Snímaè polohy multiplikátoru, konektor pro -2R3
+-2XR23 Konektor pro -2R23
+-2Y1 Øídící elektromagnet pro uzavírání formy
+-2Y2 Øídicí elektromagnet pro otevírání formy
+-2Y5 Øídicí elektromagnet pro vyhazovaè vpøed
+-2Y6 Øídící elektromagnet pro vyhazovaè zpìt
+-2Y11.1 Øídicí elektromagnet pro pneumatickı vyhazovaè SE1 BAP
+-2Y11.2 Øídicí elektromagnet pro pneumatickı vyhazovaè SE2 BAP
+-2Y12.1 Øídicí elektromagnet pro pneumatickı vyhazovaè VJ1 FAP
+-2Y12.2 Øídicí elektromagnet pro pneumatickı vyhazovaè VJ2 FAP
+-2Y13 Øídicí elektromagnet jádro 1 dovnitø
+-2Y14 Øídicí elektromagnet jádro 1 ven
+-2Y15 Øídicí elektromagnet jádro 2 dovnitø
+-2Y16 Øídicí elektromagnet jádro 2 ven
+-2Y17 Øídicí elektromagnet jádro 3 dovnitø
+-2Y18 Øídicí elektromagnet jádro 3 ven
+-2Y19 Øídicí elektromagnet jádro 4 dovnitø
+-2Y20 Øídicí elektromagnet jádro 4 ven
+-2Y22 Øídicí elektromagnet vypnutí chladicí vody
+-2Y26 Øídicí elektromagnet zvednutí ramene odnímaèe / ZE
+-2Y27 Øídicí elektromagnet sníení ramene odnímaèe / ZE
+-2Y28 Øídicí elektromagnet odnímaèe - chapadlo sevøít / ZE
+-2Y32 Øídicí elektromagnet pro hydraulickı bezpeènostní ventil - uzavírání
+-2Y37 Øídicí elektromagnet Ochranné dveøe uzavøít
+-2Y38 Øídicí elektromagnet Ochranné dveøe otevøít
+-2Y81 Øídicí elektromagnet pohybù formy
+-2Y82 Øídicí elektromagnet navıšení tlaku
+-2Y83 Øídicí elektromagnet samostatného udrení polohy pøi uzamknuté uzavírací jednotce
+-2Y84 Øídicí elektromagnet vıstupní proudìní oleje
+-2Y130 Øídicí elektromagnet multiplikátoru
+-2Y160 Øídicí elektromagnet vypuštìní tlaku
+-2Y181 Øídicí elektromagnet jádro 1 dovnitø pneumaticky
+-2Y182 Øídicí elektromagnet jádro 1 ven pneumaticky
+-2Y183 Øídicí elektromagnet jádro 2 dovnitø pneumaticky
+-2Y184 Øídicí elektromagnet jádro 2 ven pneumaticky
+-3A1 Regulaèní ventil pro pohyb vstøikovací jednotky vpøed, vzad
+-3B1 Vysílaè tlaku - vstøikovací jednotka vpøedu - pøítlak trysky
+-3B9 Iniciátor vstøikovací jednotka vodorovnì
+-3K1 Relé pro zabezpeèení prostoru trysky
+-3RY3 Varistor k -3Y3
+-3S3 Koncovı spínaè ochrany prostoru trysky
+-3XB1 Konektor pro -3B1
+-3Y1 Øídicí elektromagnet Vstøikovací jednotka vpøed
+-3Y2 Øídicí elektromagnet Vstøikovací jednotka zpìt
+-3Y3 Øídicí elektromagnet tlaku v soustavì trysky
+-4A1 Regulaèní ventil vstøikování
+-4A11 Proporcionální ventil zpìtného tlaku -4Y11
+-4A11-4X111 Konektor pro -4A11
+-4B3 Hydraulickı snímaè vstøikovacího tlaku
+-4B3.1 Snímaè tlaku ve formì
+-4B3.2 Snímaè tlaku ve formì
+-4B3.3 Snímaè tlaku ve formì
+-4B3.4 Snímaè tlaku ve formì
+-4B6 Termoèlánek plnicí zóny
+-4B9 Tlakovı spínaè - zásobník naplnìn
+-4B10 Snímaè pro servoventil -4Y1/2 vstøikování
+-4B16 Snímaè otáèek šneku
+-4B28 Koncovı spínaè ochrany prostoru spojky
+-4K20 Relé plastifikace (rozhraní dávkování)
+-4K25 Relé pro profil tlaku ± (zmetkovı díl)
+-4M1 Motor šneku
+-4R2 Systém mìøení dráhy šneku
+-4U3.1 Zesilovaè - pøepnutí na dotlak v závislosti na plnicím tlaku
+-4U3.2 Zesilovaè - pøepnutí na dotlak v závislosti na plnicím tlaku
+-4U3.3 Zesilovaè - pøepnutí na dotlak v závislosti na plnicím tlaku
+-4U3.4 Zesilovaè - pøepnutí na dotlak v závislosti na plnicím tlaku
+-4X3 Konektor pro -4B3
+-4X4 Konektoru pro -4Y1
+-4X10 Konektor pro EE2 (STG)
+-4X20 Konektor kontaktu dávkování / ZE
+-4X111 Konektor pro -4A11
+-4XB9 Konektor pro -4B9
+-4XR2 Konektor pro -4R2
+-4Y1 Øídicí elektromagnet pro vstøikování
+-4Y2 Øídicí elektromagnet pro odskok šneku
+-4Y4 Øídicí elektromagnet pro dávkování
+-4Y8 Øídicí elektromagnet vyprázdnit zásobník
+-4Y9 Ventil plnìní zásobníku
+-4Y10 Øídicí elektromagnet zásobníku
+-4Y40 Øídicí elektromagnet otevøení trysky horkého vtoku
+-4Y42 Øídicí elektromagnet uzavøení trysky horkého vtoku
+-4Y43 Ventil otevøení horkého vtoku pneumaticky / ZE
+-4Y45 Ventil pneumatického otevøení uzávìru trysky / SVP
+-4Y60 Øídicí elektromagnet pro chlazení plnicí zóny
+-4Y61.1 Øídicí elektromagnet uvolnìní vstøikování se zásobníkem / ZE
+-6A3 Modul identifikace šneku (EEPROM)
+-6B1 Termoèlánek MH1
+-6B2 Termoèlánek MH2
+-6B3 Termoèlánek MH3
+-6B4 Termoèlánek MH4
+-6B10 Termoèlánek DH
+-6B11 Termoèlánek WH1
+-6B12 Termoèlánek WH2
+-6B16 Termoèlánek mìøení teploty taveniny
+-6B35 Termoèlánek DH2
+-6B101 Termoèlánek horkı vtok 1
+-6B102 Termoèlánek horkı vtok 2
+-6B103 Termoèlánek horkı vtok 3
+-6B104 Termoèlánek horkı vtok 4
+-6B105 Termoèlánek horkı vtok 5
+-6B106 Termoèlánek horkı vtok 6
+-6B107 Termoèlánek horkı vtok 7
+-6B108 Termoèlánek horkı vtok 8
+-6B109 Termoèlánek horkı vtok 9
+-6B110 Termoèlánek horkı vtok 10
+-6B111 Termoèlánek horkı vtok 11
+-6B112 Termoèlánek horkı vtok 12
+-6B113 Termoèlánek horkı vtok 13
+-6B114 Termoèlánek horkı vtok 14
+-6B115 Termoèlánek horkı vtok 15
+-6B116 Termoèlánek horkı vtok 16
+-6E1.1 Topnı pás MH1.1
+-6E1.2 Topnı pás MH1.2
+-6E2 Topnı pás MH2
+-6E3.1 Topnı pás MH3.1
+-6E3.2 Topnı pás MH3.2
+-6E4.1 Topnı pás MH4.1
+-6E4.2 Topnı pás MH4.2
+-6E10.1 Topnı pás DH1.1
+-6E10.2 Topnı pás DH1.2
+-6E10.3 Topnı pás DH1.3
+-6E15 Topnı pás DH2
+-6F1.1(.2) Jistiè MH1
+-6F2 Jistiè MH2
+-6F3.1(.2) Jistiè MH3
+-6F4.1(.2) Jistiè MH4
+-6F10 Jistiè DH1
+-6F35 Jistiè DH2
+-6F101 Jistiè horkého vtoku 1
+-6F102 Jistiè horkého vtoku 2
+-6F103 Jistiè horkého vtoku 3
+-6F104 Jistiè horkého vtoku 4
+-6F105 Jistiè horkého vtoku 5
+-6F106 Jistiè horkého vtoku 6
+-6F107 Jistiè horkého vtoku 7
+-6F108 Jistiè horkého vtoku 8
+-6F109 Jistiè horkého vtoku 9
+-6F110 Jistiè horkého vtoku 10
+-6F111 Jistiè horkého vtoku 11
+-6F112 Jistiè horkého vtoku 12
+-6F113 Jistiè horkého vtoku 13
+-6F114 Jistiè horkého vtoku 14
+-6F115 Jistiè horkého vtoku 15
+-6F116 Jistiè horkého vtoku 16
+-6K26 Stykaè pro vyhøívání formy
+-6K26RC Èlánek RC vyhøívání formy
+-6K27 Stykaè pro topení válce
+-6K27RC Èlánek RC topení válce
+-6K31 Relé pro zapnutí topení
+-6K33 Relé pro zapnutí vyhøívání formy
+-6Q0 Pojistka / Vıkonovı spínaè odpínaèe vyhøívání válce
+-6R40 Odpor pro teplotní srovnání topení válce
+-6R41 Odpor pro teplotní srovnání formy- indikace teplot
+-6R42 Odpor pro teplotní srovnání horkého vtoku Zóny 1-8
+-6R43 Odpor pro teplotní srovnání horkého vtoku Zóny 9-16
+-6T2 Trafo pro vyhøívání válce
+-6V1.1 Polovodièové relé pro MH1
+-6V1.2 Polovodièové relé pro MH1
+-6V2 Polovodièové relé pro MH2
+-6V3.1 Polovodièové relé pro MH3
+-6V3.2 Polovodièové relé pro MH3
+-6V4.1 Polovodièové relé pro MH4
+-6V4.2 Polovodièové relé pro MH4
+-6V10 Polovodièové relé pro DH
+-6V20 Polovodièové relé pro horkı vtok 1
+-6V21 Polovodièové relé pro horkı vtok 2
+-6V22 Polovodièové relé pro horkı vtok 3
+-6V23 Polovodièové relé pro horkı vtok 4
+-6V24 Polovodièové relé pro horkı vtok 5
+-6V25 Polovodièové relé pro horkı vtok 6
+-6V26 Polovodièové relé pro horkı vtok 7
+-6V27 Polovodièové relé pro horkı vtok 8
+-6V28 Polovodièové relé pro horkı vtokl 9
+-6V29 Polovodièové relé pro horkı vtok 10
+-6V30 Polovodièové relé pro horkı vtok 11
+-6V31 Polovodièové relé pro horkı vtok 12
+-6V35 Polovodièové relé pro topnou zónu DH2
+-6V38 Dioda pro Relé -6K31
+-6V39 Dioda pro Relé -6K33
+-6V43 Polovodièové relé pro horkı vtok 13
+-6V44 Polovodièové relé pro horkı vtok 14
+-6V45 Polovodièové relé pro horkı vtok 15
+-6V46 Polovodièové relé pro horkı vtok 16
+-6X9 Konektor termoèlánku plastifikaèního válce
+-6X9.1 Konektor termoèlánku plastifikaèního válce
+-6X10.1 Konektor topného pásu trysky
+-6X10.2 Konektor topného pásu trysky
+-6X10.3 Konektor topného pásu trysky
+-6X13 Konektor topení válce
+-6X13.1 Konektor topení válce VJ600
+-6X15.2 Konektor topného pásu DH2
+-6X31 Konektor - teplota formy 1
+-6X32 Konektor - teplota formy 2
+-6X35 Konektor pro topnou zónu - pøídavnı regulátor DH2
+-6X36 Konektor termoèlánkù tavení (-6B16)
+-6X42 Svorkovnice pro 6R42
+-6X43 Svorkovnice pro 6R43
+-6X85.1 Konektor pro vytápìní horkého vtoku 1-8
+-6X85.2 Konektor pro vytápìní horkého vtoku 9-16
+-6X89.1 Konektor termoèlánkù zón horkého vtoku 1-8
+-6X89.2 Konektor termoèlánkù zón horkého vtoku 9-16
+-6X99.1 Zaslepovací zástrèka horkého vtoku 1-8
+-6X99.2 Zaslepovací zástrèka horkého vtoku 9-16
+-6X100.1 Zaslepovací zástrèka pro tepelnì spínanou zásuvku (-6X31)
+-6X100.2 Zaslepovací zástrèka pro tepelnì spínanou zásuvku (-6X32)
+-230X1 Konektor pro integrovanı manipulátor
+-230X10 Zaslepovací zástrèka pro integrovanı manipulátor
+-250B32 Koncovı spínaè - klapka QS
+-250B33 Koncovı spínaè - klapka QS
+-250K1 Relé klapky QS
+-250K2 Relé klapky QS
+-250M1 Motor klapky QS
+-250R1 Polohovı snímaè klapky QS
+-250X1 Svorkovnice klapka QS
+-250X1.2 Svorkovnice klapky QS
+-250X2 Konektor klapka QS
+-600X9 Zaslepovací zástrèka pro -6X9 v pøípadì materiálu Duroplast
+-600X13 Zaslepovací zástrèka pro -6X13 v pøípadì materiálu Duroplast
+-600X13.1 Zaslepovací zástrèka pro -6X13.1 v pøípadì materiálu Duroplast

@@ -1,0 +1,102 @@
+1DB1 Redukèní ventil tlaku 1PV1
+1DB2 Redukèní ventil Paralelní èerpadlo 1PV2
+1FT1 Sací filtr èerpadlo
+1FT2 Sací filtr pøídavné èerpadlo
+1FT5 Jemný výtlaèný filtr
+1FT6 Plnicí / vìtrací filtr
+1FV4 Pøedpjatý ventil 1PV1
+1FV5 Pøedpjatý ventil 1PV2
+1MA1 Manometr 1PV1
+1RV6.1 Zpìtný ventil trubky pumpy 1PV1
+1RV6.2 Zpìtný ventil trubky pumpy 1PV2
+1SH1 Regulaèní ventil paralelní èerpadlo -1PV2
+1SH7 Regulaèní ventil hlavní èerpadlo -1PV1
+1SH11 Øídící ventil pro rovnobìžný provoz
+1SH24 Cestný ventil – pøipojení chladicí vody chladiè hydraulického oleje
+1PV1 Hlavní èerpadlo
+1PV2 Paralelní èerpadlo
+1PF7 Nízkotlaká pumpa pro chlazení a filtraci oleje
+1WT1 Chladiè hydraulického oleje
+2AS14 Uzavírací ventil redukce tlaku jádra 1/2 / 3/4 ZE
+2AS20 Uzavírací ventil - chlazení formy
+2DE15 Proporcionální redukèní ventil pro jádra a vyhazovaè (-2A62)
+2DB24 Tlakový omezovací ventil – pøevodník množství
+2DB24.1 Tlakový omezovací ventil – potrubí – pohyb formy
+2DM20 Redukèní ventil pro chlazení formy
+2DR6 Škrticí zpìtný ventil kanál B AWH
+2KV16 Tlaková váha pro jádra a vyhazovaè
+2FT20 Vodní filtr
+2MA13 Manometr - tlak pro jádra
+2RV2 Zpìtný ventil v tlakovém vedení pohyb formy
+2RV12 Zpìtný ventil tlakového profilu
+2RV14 Zpìtný ventil - 2SV21
+2RV19 Zpìtný ventil v T šroubení - tahaè jader 1 popø. 1- 4 paralelnì
+2RV42 Dvojitý zpìtný ventil AWH
+2RV43 Zpìtný ventil tahaè tah jádra 1. okruh / ZE
+2RV44 Zpìtný ventil tahaè tah jádra 2. okruh / ZE
+2RV48 Zpìtný ventil tahaè tah jádra 3. okruh / ZE
+2RV49 Zpìtný ventil tahaè tah jádra 4. okruh / ZE
+2RV58 Zpìtný ventil - zamknutí formy
+2RV60 Zpìtný ventil 2SH5 - T
+2RV76.1 Zpìtný ventil 2SH1 - T1
+2RV96 Zpìtný ventil pro redukci tlaku tahu jadra
+2RV97 Zpìtný ventil pro redukci tlaku tahu jadra
+2RV98 Zpìtný ventil pro redukci tlaku tahu jadra
+2RV99 Zpìtný ventil pro redukci tlaku tahu jadra
+2RV100 Zpìtný ventil pro redukci tlaku tahu jadra
+2RV101 Zpìtný ventil pro redukci tlaku tahu jadra
+2RV102 Zpìtný ventil pro redukci tlaku tahu jadra
+2RV103 Zpìtný ventil pro redukci tlaku tahu jadra
+2SH1 Cestný ventil – pohyb formy
+2SH4 Cestný ventil – hydraulické zabezpeèení
+2SH5 Cestný ventil - vyhazovaèe
+2SH7 Cestný ventil – vytvoøení tlaku
+2SH13 Cestný ventil jádra 1 / ZE
+2SH15 Cestný ventil jádra 2 / ZE
+2SH17 Cestný ventil jádra 3 / ZE
+2SH19 Cestný ventil jádra 4 / ZE
+2SH22 Cestný ventil automatika vypínání
+2SH46.1 Cestný sedlový ventil 2SV21 - vytvoøení tlaku
+2SH46.2 Cestný sedlový ventil - odlehèení 2SV21
+2SH81 Redukce tlaku (odblokování) Hydraulický válec zavírací jednotky
+2SV21 Sedlový ventil uzavírací jednotky
+2SV50 Sedlový ventil zavíracích válcù
+2ZY1.1 Hydraulický válec zavírací jednotky
+2ZY1.2 Hydraulický válec zavírací jednotky
+2ZY6 Hydraulický válec vyhazovaèe
+2ZY23 Pøevodník množství
+3RV8 Zpìtný ventil zbytkového pøítlaku vstøikovací jednotky
+3RV11 Zpìtný ventil v T-EE
+3RV12 Zpìtný ventil obejití 3RV8
+3SH1 Øídící ventil pojezdu vstøikovací jednotky
+3SH3 Øídící ventil pøítlaku vstøikovací jednotky
+3ZY1.1 Hydraulický válec vstøikovací jednotky
+3ZY1.2 Hydraulický válec vstøikovací jednotky
+4AS3 Ruèní ventil manometru akumulátoru / ZE
+4AS4 Ruèní ventil pro odtlakováni akumulátoru / ZE
+4DB1 Tlakový omezovací ventil tlak zásobníku / ZE
+4DE11 Proporcionální tlakový omezovací ventil odporu šneku programovatelný / WA
+4MA1 Manometr akumulátoru / ZE
+4MA3 Manometr zpìtného odporu šneku
+4MA7 Manometr ovládáni topných kanalú / ZE
+4MF1 Hydromotor otáèení šneku
+4MR1 Regulaèní ventil množství pro odpor šneku
+4RV2 Zpìtný ventil otáèení šneku
+4RV12 Zpìtný ventil - omezení spotøeby elektrické energie pøed èerpadlem
+4RV32.1(.2) Zpìtný ventil v T šroubení - blok vstøikování
+4RV70 Zpìtný ventil odblokovatlený – øízení horkého kanálu trysky / WA
+4RV80 Zpìtný ventil - dávkovací motor
+4SH1 Proporcionální øídící ventil vstøikování a dekomprese šneku
+4SH4 Øídící ventil otáèení šneku
+4SH8 Øídící ventil automatického odtlakováni akumulátoru / ZE
+4SH10 Øídící ventil vstàikováni s akumulátorem
+4SH18 P/Q-regulaèní ventil vstøikovací jednotka- ZE vstøikování zpìtný pohyb šneku / odpor šneku
+4SH40 øídící ventil ovládání topných kanálù
+4SH60 Ventil chlazení plnicí zóny
+4SP1 Akumulátor tlaku pro rychlé vstøikováni / ZE
+4SV3 Sedlový ventil – odpor šneku
+4SV10 Sedlový ventil vstøikováni s akumulátorem / ZE
+4WV9 Pøepouštìcí ventil plnìní akumulátoru
+4ZY1.1 Hydraulický válec vstøikování
+4ZY1.2 Hydraulický válec vstøikování
+4ZY5 Hydraulický válec uzavåratelné trysky
