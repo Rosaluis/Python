@@ -4,7 +4,7 @@
 Created on 17. 10. 2020
 @author: Lojza
 '''
-from PyQt5.Qt import QLabel, QCheckBox
+from PyQt5.Qt import QLabel, QCheckBox, QTextEdit
 
 """ databaze dilu ktere skopiruju z dokumentaci jednotlivych stroju, 
     obsahovat bude:
@@ -95,7 +95,7 @@ from PyQt5.Qt import QLabel, QCheckBox
 
 from PyQt5 import QtGui
 from PyQt5.QtWidgets import QApplication, QWidget, QHBoxLayout, QRadioButton, QGroupBox, QVBoxLayout,\
-    QGridLayout, QLineEdit, QPushButton, QDialogButtonBox
+    QGridLayout, QLineEdit, QPushButton, QDialogButtonBox, QTabWidget
 import sys
 from PyQt5.QtCore import Qt
 
@@ -116,8 +116,10 @@ class Window(QWidget):
         mainLay = QVBoxLayout() #vertikalni razeni 
         grpParams = QGroupBox(" Parametry: ")
         grpHistory = QGroupBox(" Historie hledání: ")
+        tabForm = QTabWidget()
 #         grpParams.setFont(QtGui.QFont("Sanserif", 15))
         mainLay.addWidget(grpParams)
+        mainLay.addWidget(tabForm)
         mainLay.addWidget(grpHistory)
         
 #         grdLayParams = QVBoxLayout()
@@ -129,11 +131,11 @@ class Window(QWidget):
         btDBConnect = QPushButton("OK") 
         btDBConnect.setEnabled(False)
         btDBConnect.setStyleSheet(".QPushButton {background-color: lightgreen}")
-        lbPartNumber = QLabel("èíslo: ")
+        lbPartNumber = QLabel("number: ")
         lePartNumber = QLineEdit()
-        lbPartName = QLabel("název: ")
+        lbPartName = QLabel("name: ")
         lePartName = QLineEdit()
-        lbStroj = QLabel("stroj: ")
+        lbStroj = QLabel("machine: ")
         leStroj = QLineEdit()
         cbPartNumber = QCheckBox()
         cbPartName = QCheckBox()
@@ -150,6 +152,8 @@ class Window(QWidget):
         grdLayParams.addWidget(leStroj,         3, 2, 1, 2)
         grdLayParams.addWidget(cbStroj,         3, 4, 1, 1)
         
+        tabForm.addTab(TabOutput(), "Output: ")
+        tabForm.addTab(TabOutput(), "Edit: ")
         
         btHistoryPast = QPushButton(" <- ")
         btHistoryNext = QPushButton(" -> ")
@@ -165,6 +169,21 @@ class Window(QWidget):
         self.setLayout(mainLay)
         self.show()
 
+class TabOutput(QWidget):
+    def __init__(self):
+        super().__init__()
+        teOutput = QTextEdit()
+        grdForm = QGridLayout()
+        grdForm.addWidget(teOutput,      0, 0, 1, 1)
+        self.setLayout(grdForm)
+
+class TabEdit(QWidget):
+    def __init__(self):
+        super().__init__()
+        teEdit = QTextEdit()
+        grdForm = QGridLayout()
+        grdForm.addWidget(teEdit,        0, 0, 1, 1)
+        self.setLayout(grdForm)
 
 
 if __name__ == "__main__":
