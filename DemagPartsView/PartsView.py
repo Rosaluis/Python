@@ -72,35 +72,35 @@ class Window(QWidget):
         self.mainLay.addWidget(self.grpOutput)
         self.mainLay.addWidget(self.grpFoot)
         
-        self.lbPartNumber = QLabel("number: ")
-        self.lePartNumber = QLineEdit()
+        
         self.lbPartName = QLabel("name: ")
         self.lePartName = QLineEdit()
+        self.lePartName.setText("1B6")
+        self.lbPartDescription = QLabel("description: ")
+        self.lePartDescription = QLineEdit()
         self.lbStroj = QLabel("machine: ")
         self.leStroj = QLineEdit()
         self.cbPartNumber = QCheckBox()
         self.cbPartName = QCheckBox()
         self.cbStroj = QCheckBox()
         self.btCommit = QPushButton("commit")
-        self.grdLayParams.addWidget(self.lbPartNumber,    1, 1, 1, 1)
-        self.grdLayParams.addWidget(self.lePartNumber,    1, 2, 1, 2)
-        self.grdLayParams.addWidget(self.cbPartNumber,    1, 4, 1, 1)
-        self.grdLayParams.addWidget(self.lbPartName,      2, 1, 1, 1)
-        self.grdLayParams.addWidget(self.lePartName,      2, 2, 1, 2)
-        self.grdLayParams.addWidget(self.cbPartName,      2, 4, 1, 1)
-        self.grdLayParams.addWidget(self.lbStroj,         3, 1, 1, 1)
-        self.grdLayParams.addWidget(self.leStroj,         3, 2, 1, 2)
-        self.grdLayParams.addWidget(self.cbStroj,         3, 4, 1, 1)
-        self.grdLayParams.addWidget(self.btCommit,        4, 4, 1, 1)
-        
-#         tabForm.addTab(TabOutput(), "Output: ")
-#         tabForm.addTab(TabEdit(), "Edit: ")
+        self.grdLayParams.addWidget(self.lbPartName,            1, 1, 1, 1)
+        self.grdLayParams.addWidget(self.lePartName,            1, 2, 1, 2)
+        self.grdLayParams.addWidget(self.cbPartNumber,          1, 4, 1, 1)
+        self.grdLayParams.addWidget(self.lbPartDescription,     2, 1, 1, 1)
+        self.grdLayParams.addWidget(self.lePartDescription,     2, 2, 1, 2)
+        self.grdLayParams.addWidget(self.cbPartName,            2, 4, 1, 1)
+        self.grdLayParams.addWidget(self.lbStroj,               3, 1, 1, 1)
+        self.grdLayParams.addWidget(self.leStroj,               3, 2, 1, 2)
+        self.grdLayParams.addWidget(self.cbStroj,               3, 4, 1, 1)
+        self.grdLayParams.addWidget(self.btCommit,              4, 5, 1, 1)
         
         self.tabsOutput = QTabWidget()
         self.tabOutputData = QWidget()
         self.teOutputData = QTextEdit()
+        self.teOutputData.setMinimumWidth(600)
         self.tabOutputData.setLayout(self.grdLayTabOutData)
-        self.grdLayTabOutData.addWidget(self.teOutputData, 0, 0, 10, 10)
+        self.grdLayTabOutData.addWidget(self.teOutputData,      0, 0, 10, 10)
         
         self.tabOutputCmd = QWidget()
         self.teOutputCmd = QTextEdit()
@@ -136,15 +136,15 @@ class Window(QWidget):
             FROM parts
             INNER JOIN kinds ON parts.partKind = kinds.kindID
             INNER JOIN machines ON parts.partMachine = machines.machineId
-            WHERE parts.partName LIKE \"%$what%\" ''')
+            WHERE parts.partName LIKE \"$what\" ''')
         
-        print(sql)
         cur = conn.cursor()
         cur.execute(sql.substitute(what = data)) #https://docs.python.org/2/library/string.html#template-strings
+        print(cur)
         
         rows = cur.fetchall()
         for row in rows:
-            print(row)
+#             print(row)
             self.teOutputData.append(str(row))
             
             
