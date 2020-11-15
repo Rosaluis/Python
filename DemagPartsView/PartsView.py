@@ -4,6 +4,16 @@
 Created on 17. 10. 2020
 @author: Lojza
 '''
+"""
+todo:
+check boxy pro doplneni zadani o symbol procenta
+poznamka s proconty pro vyhledavani
+dodelat logiku
+dodelat pouziti vlastniho commandu
+upravit sirku zadavacich okenek
+"""
+
+
 
 """ databaze dilu ktere skopiruju z dokumentaci jednotlivych stroju, 
     obsahovat bude:
