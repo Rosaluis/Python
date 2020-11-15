@@ -4,7 +4,6 @@
 Created on 17. 10. 2020
 @author: Lojza
 '''
-from PyQt5.Qt import QLabel, QCheckBox, QTextEdit
 
 """ databaze dilu ktere skopiruju z dokumentaci jednotlivych stroju, 
     obsahovat bude:
@@ -29,73 +28,12 @@ from PyQt5.Qt import QLabel, QCheckBox, QTextEdit
 # Pøíklad:
 # Cívka -2Y1 ventilu 2SH1
 
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
-
-# import sys
-
-
-# from PyQt5 import QtGui
-
-
-# from PyQt5 import QtCore
-# from PyQt5.QtWidgets import QApplication, QGridLayout, QDialog,QTabWidget, QComboBox, QCheckBox ,QGroupBox ,QVBoxLayout, QWidget, QLabel, QLineEdit, QDialogButtonBox
-# from PyQt5.QtGui import QIcon
-# 
-# # from PyQt5.QtWidgets import (QWidget, QGridLayout, QLabel, QLineEdit, QPushButton, QCheckBox, QApplication, QToolBar)
-# from PyQt5.QtCore import Qt
-# 
-# class Example(QWidget):
-#     def __init__(self):
-#         super().__init__()
-# #         self.setWindowFlags(Qt.WindowStaysOnTopHint | Qt.FramelessWindowHint)
-# #         self.setWindowFlags(Qt.WindowStaysOnTopHint | Qt.WindowMinMaxButtonsHint)
-#         self.setWindowFlags(Qt.WindowCloseButtonHint)
-#         
-#         
-#         
-#         self.initUI()
-# 
-#     def initUI(self):
-# 
-#         grid = QGridLayout()
-#         self.setLayout(grid)
-#         
-# #         self.lbCountDown.setFont(QtGui.QFont('Verdana bold', 50))
-#         # QtGui.QWidget.__init__(self, parent, QtCore.Qt.WindowStaysOnTopHint | QtCore.Qt.WindowMinimizeButtonHint)
-#         # self.btGogogo.setStyleSheet(".QPushButton {background-color: yellow; padding: 2px}")
-# 
-# #         self.leMaxInSpd.setStyleSheet(".QLineEdit {background-color: yellow}")
-#         
-# 
-# #         grid.addWidget(self.lbMaxInSpd,     0, 0, 1, 2)
-# #         grid.addWidget(self.leMaxInSpd,     0, 2, 1, 1)
-#         
-#         
-#         
-#         self.move(300, 150)
-#         self.setWindowTitle('PartView')
-#         self.show()
-#         self.setPalette(QtGui.QPalette(QtGui.QColor(80, 120, 240)))
-#         
-#         
-#         
-#         
-# #         self.connect(self.btCalk, QtCore.SIGNAL('clicked()'), QtGui.qApp, QtCore.SLOT('quit()'))
-# #         self.btPreCalk.clicked[bool].connect(self.calcTeorInjectSpeed)
-# #         self.btCalk.clicked[bool].connect(self.calcInjectSpeed)
-#         
-# #         jak se sakra dela s tabulatorama
-# 
-# if __name__ == '__main__':
-#     app = QApplication(sys.argv)
-#     ex = Example()
-#     sys.exit(app.exec_())
-
-
+import sqlite3
+from sqlite3 import Error
+from string import Template
 from PyQt5 import QtGui
 from PyQt5.QtWidgets import QApplication, QWidget, QHBoxLayout, QRadioButton, QGroupBox, QVBoxLayout,\
-    QGridLayout, QLineEdit, QPushButton, QDialogButtonBox, QTabWidget
+    QGridLayout, QLineEdit, QPushButton, QDialogButtonBox, QTabWidget, QLabel, QCheckBox, QTextEdit
 import sys
 from PyQt5.QtCore import Qt
 
@@ -111,83 +49,126 @@ class Window(QWidget):
 #         self.setWindowIcon(QtGui.QIcon("icon.png"))
 #         self.setGeometry(self.left, self.top, self.width, self.height)
         
-
+        self.database = r"Parts.sqlite3"
 #         mainLay = QHBoxLayout() #horizontalni razeni 
-        mainLay = QVBoxLayout() #vertikalni razeni 
-        grpParams = QGroupBox(" Parametry: ")
-        grpHistory = QGroupBox(" Historie hledání: ")
-        tabForm = QTabWidget()
-#         grpParams.setFont(QtGui.QFont("Sanserif", 15))
-        mainLay.addWidget(grpParams)
-        mainLay.addWidget(tabForm)
-        mainLay.addWidget(grpHistory)
+        self.mainLay = QVBoxLayout() #vertikalni razeni 
+        self.grpParams = QGroupBox(" Filter: ")
+        self.grpOutput = QGroupBox(" Output: ")
+        self.grpFoot = QGroupBox()
         
-#         grdLayParams = QVBoxLayout()
-        grdLayParams = QGridLayout()
-        grdLayHistory = QGridLayout()
+        self.grdLayParams = QGridLayout()
+        self.grdLayOutput = QGridLayout()
+        self.grdLayTabOutData = QGridLayout()
+        self.grdLayTabOutCmd = QGridLayout()
+        self.horLayFoot = QHBoxLayout()
+        self.horLayFoot.addStretch(1)
+
+        self.grpOutput.setLayout(self.grdLayOutput)
+        self.grpParams.setLayout(self.grdLayParams)
+        self.grpFoot.setLayout(self.horLayFoot)
         
+        self.mainLay.addWidget(self.grpParams)
+#         self.mainLay.addWidget(tabForm)
+        self.mainLay.addWidget(self.grpOutput)
+        self.mainLay.addWidget(self.grpFoot)
         
-        lbDBConnect = QLabel("DB pøipojena: ") 
-        btDBConnect = QPushButton("OK") 
-        btDBConnect.setEnabled(False)
-        btDBConnect.setStyleSheet(".QPushButton {background-color: lightgreen}")
-        lbPartNumber = QLabel("number: ")
-        lePartNumber = QLineEdit()
-        lbPartName = QLabel("name: ")
-        lePartName = QLineEdit()
-        lbStroj = QLabel("machine: ")
-        leStroj = QLineEdit()
-        cbPartNumber = QCheckBox()
-        cbPartName = QCheckBox()
-        cbStroj = QCheckBox()
-        grdLayParams.addWidget(lbDBConnect,     0, 0, 1, 2)
-        grdLayParams.addWidget(btDBConnect,     0, 3, 1, 1)
-        grdLayParams.addWidget(lbPartNumber,    1, 1, 1, 1)
-        grdLayParams.addWidget(lePartNumber,    1, 2, 1, 2)
-        grdLayParams.addWidget(cbPartNumber,    1, 4, 1, 1)
-        grdLayParams.addWidget(lbPartName,      2, 1, 1, 1)
-        grdLayParams.addWidget(lePartName,      2, 2, 1, 2)
-        grdLayParams.addWidget(cbPartName,      2, 4, 1, 1)
-        grdLayParams.addWidget(lbStroj,         3, 1, 1, 1)
-        grdLayParams.addWidget(leStroj,         3, 2, 1, 2)
-        grdLayParams.addWidget(cbStroj,         3, 4, 1, 1)
+        self.lbPartNumber = QLabel("number: ")
+        self.lePartNumber = QLineEdit()
+        self.lbPartName = QLabel("name: ")
+        self.lePartName = QLineEdit()
+        self.lbStroj = QLabel("machine: ")
+        self.leStroj = QLineEdit()
+        self.cbPartNumber = QCheckBox()
+        self.cbPartName = QCheckBox()
+        self.cbStroj = QCheckBox()
+        self.btCommit = QPushButton("commit")
+        self.grdLayParams.addWidget(self.lbPartNumber,    1, 1, 1, 1)
+        self.grdLayParams.addWidget(self.lePartNumber,    1, 2, 1, 2)
+        self.grdLayParams.addWidget(self.cbPartNumber,    1, 4, 1, 1)
+        self.grdLayParams.addWidget(self.lbPartName,      2, 1, 1, 1)
+        self.grdLayParams.addWidget(self.lePartName,      2, 2, 1, 2)
+        self.grdLayParams.addWidget(self.cbPartName,      2, 4, 1, 1)
+        self.grdLayParams.addWidget(self.lbStroj,         3, 1, 1, 1)
+        self.grdLayParams.addWidget(self.leStroj,         3, 2, 1, 2)
+        self.grdLayParams.addWidget(self.cbStroj,         3, 4, 1, 1)
+        self.grdLayParams.addWidget(self.btCommit,        4, 4, 1, 1)
         
-        tabForm.addTab(TabOutput(), "Output: ")
-        tabForm.addTab(TabOutput(), "Edit: ")
+#         tabForm.addTab(TabOutput(), "Output: ")
+#         tabForm.addTab(TabEdit(), "Edit: ")
         
-        btHistoryPast = QPushButton(" <- ")
-        btHistoryNext = QPushButton(" -> ")
-        btHistoryPast.setEnabled(False)
-        btHistoryNext.setEnabled(False)
-        grdLayHistory.addWidget(btHistoryPast,  0, 0, 1, 1)
-        grdLayHistory.addWidget(btHistoryNext,  0, 1, 1, 1)
-        grpParams.setLayout(grdLayParams)
-        grpHistory.setLayout(grdLayHistory)
-        grpHistory.setVisible(False)
+        self.tabsOutput = QTabWidget()
+        self.tabOutputData = QWidget()
+        self.teOutputData = QTextEdit()
+        self.tabOutputData.setLayout(self.grdLayTabOutData)
+        self.grdLayTabOutData.addWidget(self.teOutputData, 0, 0, 10, 10)
         
+        self.tabOutputCmd = QWidget()
+        self.teOutputCmd = QTextEdit()
+        self.teOutputCmd.append("SELECT * FROM parts")
+        self.btOutputCmdSend = QPushButton("send")
+        self.tabOutputCmd.setLayout(self.grdLayTabOutCmd)
+        self.grdLayTabOutCmd.addWidget(self.teOutputCmd,          0, 0,10,10)
+        self.grdLayTabOutCmd.addWidget(self.btOutputCmdSend,      10,9, 1, 1)
         
-        self.setLayout(mainLay)
+        self.tabsOutput.addTab(self.tabOutputData, "output data")
+        self.tabsOutput.addTab(self.tabOutputCmd, "DB command edit")
+        self.grdLayOutput.addWidget(self.tabsOutput,              0, 0, 1, 1)
+        
+        self.lbDBConnect = QLabel("DB connected: ") 
+        self.lbDBName = QLabel("...") 
+        self.lbDBName.setStyleSheet(".QLabel{background-color: yellow}")
+        self.horLayFoot.addWidget(self.lbDBConnect)
+        self.horLayFoot.addWidget(self.lbDBName)
+        
+        self.setLayout(self.mainLay)
         self.show()
-
-class TabOutput(QWidget):
-    def __init__(self):
-        super().__init__()
-        teOutput = QTextEdit()
-        grdForm = QGridLayout()
-        grdForm.addWidget(teOutput,      0, 0, 1, 1)
-        self.setLayout(grdForm)
-
-class TabEdit(QWidget):
-    def __init__(self):
-        super().__init__()
-        teEdit = QTextEdit()
-        grdForm = QGridLayout()
-        grdForm.addWidget(teEdit,        0, 0, 1, 1)
-        self.setLayout(grdForm)
-
-
+        
+        self.btCommit.clicked[bool].connect(self.commitDBCommand)
+        
+    def commitDBCommand(self):
+        database = r"Parts.sqlite3"
+        # create a database connection
+        conn = self.create_connection(database)
+        data = self.lePartName.text()
+    
+        sql = Template('''
+            SELECT parts.partName, parts.partDescription, kinds.kindName, machines.machineName, parts.partLink
+            FROM parts
+            INNER JOIN kinds ON parts.partKind = kinds.kindID
+            INNER JOIN machines ON parts.partMachine = machines.machineId
+            WHERE parts.partName LIKE \"%$what%\" ''')
+        
+        print(sql)
+        cur = conn.cursor()
+        cur.execute(sql.substitute(what = data)) #https://docs.python.org/2/library/string.html#template-strings
+        
+        rows = cur.fetchall()
+        for row in rows:
+            print(row)
+            self.teOutputData.append(str(row))
+            
+            
+    def create_connection(self, db_file):
+        conn = None
+        try:
+            conn = sqlite3.connect(db_file)
+            self.lbDBName.setText("OK")
+            self.lbDBName.setStyleSheet(".QLabel{background-color: lightgreen}")
+        except Error as e:
+            self.lbDBName.setText("NOK")
+            self.lbDBName.setStyleSheet(".QLabel{background-color: red}")
+            print(e)
+        return conn
+    
 if __name__ == "__main__":
     App = QApplication(sys.argv)
     window = Window()
     sys.exit(App.exec())
     
+    
+# SELECT parts.partName, parts.partDescription, kinds.kindName, machines.machineName, parts.partLink
+# FROM parts
+# INNER JOIN kinds ON parts.partKind = kinds.kindID
+# INNER JOIN machines ON parts.partMachine = machines.machineId
+# /*WHERE parts.partDescription LIKE "%etenice%" */
+# WHERE parts.partName LIKE "2SV21"
