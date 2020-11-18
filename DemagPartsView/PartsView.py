@@ -150,6 +150,12 @@ class Window(QWidget):
         
         self.btCommit.clicked[bool].connect(self.commitDBCommand)
         self.btClearOutput.clicked[bool].connect(self.clearOutput)
+        self.btOutputCmdSend.clicked[bool].connect(self.commandSent)
+        
+    def commandSent(self):
+        self.tabsOutput.setCurrentIndex(0)
+        self.clearOutput()
+        self.teOutputData.append("under construction")
         
     def clearOutput(self):
         self.teOutputData.clear()
