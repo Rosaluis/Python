@@ -50,14 +50,8 @@ from PyQt5.QtCore import Qt
 class Window(QWidget):
     def __init__(self):
         super().__init__()
-#         self.top = 200
-#         self.left = 500
-#         self.width = 400
-#         self.height = 300
         self.setWindowTitle("Parts viewer")
         self.setWindowFlags(Qt.WindowCloseButtonHint)
-#         self.setWindowIcon(QtGui.QIcon("icon.png"))
-#         self.setGeometry(self.left, self.top, self.width, self.height)
         
         self.database = r"Parts.sqlite3"
 #         mainLay = QHBoxLayout() #horizontalni razeni 
@@ -223,10 +217,3 @@ if __name__ == "__main__":
     window = Window()
     sys.exit(App.exec())
     
-    
-# SELECT parts.partName, parts.partDescription, kinds.kindName, machines.machineName, parts.partLink
-# FROM parts
-# INNER JOIN kinds ON parts.partKind = kinds.kindID
-# INNER JOIN machines ON parts.partMachine = machines.machineId
-# /*WHERE parts.partDescription LIKE "%etenice%" */
-# WHERE parts.partName LIKE "2SV21"
