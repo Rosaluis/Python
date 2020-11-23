@@ -64,6 +64,7 @@ class Window(QWidget):
         self.grdLayOutput = QGridLayout()
         self.grdLayTabOutData = QGridLayout()
         self.grdLayTabOutCmd = QGridLayout()
+        self.grdLayTabOutClmns = QGridLayout()
         self.horLayFoot = QHBoxLayout()
         self.horLayFoot.addStretch(1)
 
@@ -96,7 +97,10 @@ class Window(QWidget):
         self.cbCompleteDesc.setChecked(True)
         self.chClearOutput = QCheckBox("clearing")
         self.chClearOutput.setChecked(True)
+        self.chClearClmns = QCheckBox("clearing")
+        self.chClearClmns.setChecked(True)
         self.btClearOutput = QPushButton("clear")
+        self.btClearClmns = QPushButton("clear")
         self.btCommit = QPushButton("commit")
         
         self.grdLayParams.addWidget(self.lbComplete,            0, 4, 1, 1)
@@ -121,6 +125,26 @@ class Window(QWidget):
         self.grdLayTabOutData.addWidget(self.chClearOutput,     11,8, 1,  1)
         self.grdLayTabOutData.addWidget(self.btClearOutput,     11,9 ,1,  1)
         
+        self.tabsOutputClmns = QTabWidget()
+        self.tabOutputClmns = QWidget()
+        self.teOutputClmn1 = QTextEdit()
+        self.teOutputClmn1.setMaximumWidth(100)
+        self.teOutputClmn2 = QTextEdit()
+        self.teOutputClmn2.setMinimumWidth(400)
+        self.teOutputClmn3 = QTextEdit()
+        self.teOutputClmn3.setMaximumWidth(200)
+        self.teOutputClmn4 = QTextEdit()
+        self.teOutputClmn4.setMaximumWidth(200)
+        self.tabOutputClmns.setLayout(self.grdLayTabOutClmns)
+        self.grdLayTabOutClmns.addWidget(self.teOutputClmn1,        0, 0, 1, 1)
+        self.grdLayTabOutClmns.addWidget(self.teOutputClmn2,        0, 1, 1, 1)
+        self.grdLayTabOutClmns.addWidget(self.teOutputClmn3,        0, 2, 1, 1)
+        self.grdLayTabOutClmns.addWidget(self.teOutputClmn4,        0, 3, 1, 1)
+        self.grdLayTabOutClmns.addWidget(self.chClearClmns,         11,2, 1,  1)
+        self.grdLayTabOutClmns.addWidget(self.btClearClmns,         11,3 ,1,  1)
+        
+        
+        
         self.tabOutputCmd = QWidget()
         self.teOutputCmd = QTextEdit()
         self.teOutputCmd.append("SELECT * FROM parts")
@@ -129,7 +153,8 @@ class Window(QWidget):
         self.grdLayTabOutCmd.addWidget(self.teOutputCmd,          0, 0,10,10)
         self.grdLayTabOutCmd.addWidget(self.btOutputCmdSend,      10,9, 1, 1)
         
-        self.tabsOutput.addTab(self.tabOutputData, "output data")
+        self.tabsOutput.addTab(self.tabOutputClmns, "output")
+        self.tabsOutput.addTab(self.tabOutputData, "raw data")
         self.tabsOutput.addTab(self.tabOutputCmd, "DB command edit")
         self.grdLayOutput.addWidget(self.tabsOutput,              0, 0, 1, 1)
         
@@ -140,6 +165,7 @@ class Window(QWidget):
         self.horLayFoot.addWidget(self.lbDBName)
         
         self.setLayout(self.mainLay)
+        self.setPalette(QtGui.QPalette(QtGui.QColor(0, 100, 255)))
         self.show()
         
         self.btCommit.clicked[bool].connect(self.commitDBCommand)
@@ -198,6 +224,13 @@ class Window(QWidget):
         for row in rows:
 #             print(row)
             self.teOutputData.append(str(row))
+            
+            odata = str(row).replace("(", "").replace(")", "").replace("'", "").split(",")
+            self.teOutputClmn1.append(odata[0])
+            self.teOutputClmn2.append(odata[1])
+            self.teOutputClmn3.append(odata[2])
+            self.teOutputClmn4.append(odata[3])
+#             print(odata)
             
             
     def create_connection(self, db_file):
