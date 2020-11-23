@@ -135,6 +135,14 @@ class Window(QWidget):
         self.teOutputClmn3.setMaximumWidth(200)
         self.teOutputClmn4 = QTextEdit()
         self.teOutputClmn4.setMaximumWidth(200)
+        self.sb1 = self.teOutputClmn1.verticalScrollBar()
+        self.sb2 = self.teOutputClmn2.verticalScrollBar()
+        self.sb3 = self.teOutputClmn3.verticalScrollBar()
+        self.sb4 = self.teOutputClmn4.verticalScrollBar()
+        self.sb2.setVisible(False)
+        self.sb3.setVisible(False)
+        self.sb4.setVisible(False)
+        
         self.tabOutputClmns.setLayout(self.grdLayTabOutClmns)
         self.grdLayTabOutClmns.addWidget(self.teOutputClmn1,        0, 0, 1, 1)
         self.grdLayTabOutClmns.addWidget(self.teOutputClmn2,        0, 1, 1, 1)
@@ -171,6 +179,10 @@ class Window(QWidget):
         self.btCommit.clicked[bool].connect(self.commitDBCommand)
         self.btClearOutput.clicked[bool].connect(self.clearOutput)
         self.btOutputCmdSend.clicked[bool].connect(self.commandSent)
+
+    def setScrolls(self):
+        print(self.sb1.position)
+        
         
     def commandSent(self):
         self.tabsOutput.setCurrentIndex(0)
@@ -231,8 +243,9 @@ class Window(QWidget):
             self.teOutputClmn3.append(odata[2])
             self.teOutputClmn4.append(odata[3])
 #             print(odata)
-            
-            
+        
+        self.setScrolls()
+        
     def create_connection(self, db_file):
         conn = None
         try:
